@@ -8,7 +8,7 @@ var bit_map = [
     ['c5','c9','c13','c17','c21']
 ]
 
-selected = []
+selected = [];
 
 var li2 = [];
 
