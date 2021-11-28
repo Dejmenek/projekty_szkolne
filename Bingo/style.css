@@ -1,0 +1,154 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+/*----------*/
+/*  Header  */
+/*----------*/
+        
+header{
+    height: 100px;
+    background-color: #39393A;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    padding: 20px;
+}
+
+/*----------*/
+/*  Section */
+/*----------*/
+
+.section {
+    float: left;
+    background-color: #63B0CD;
+    height: 400px;
+    width: 50%;
+}
+
+.section__btn{
+    display: flex;
+    justify-content: center;
+}
+
+.section__circles {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.section__circle {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 6px 2px black;
+}
+
+
+.section__circle--red {
+    background-color: #E25D4F;
+}
+
+.inner__circle--red {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: inset 0 0 0 4px #C93F2A,
+                0 0 0 4px white;
+}
+
+
+
+.section__circle--green {
+    background-color: #13B907;
+}
+
+.inner__circle--green {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 45px;
+    background-color: white;
+    text-align: center;
+    box-shadow: inset 0 0 0 4px #83BD19,
+                0 0 0 4px white;
+}
+
+
+.section__circle--yellow {
+    background-color: #F0C650;
+}
+
+.inner__circle--yellow {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 45px;
+    background-color: white;
+    text-align: center;
+    box-shadow: inset 0 0 0 4px #E08D31,
+                0 0 0 4px white;
+}
+
+
+input[type=button]{
+    padding: 1px 20px 1px 20px;
+    border-radius: 5%;
+    border-color: white;
+}
+
+
+
+/*----------*/
+/*   Card   */
+/*----------*/
+
+
+.card{
+    height: 400px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-color: #63B0CD;
+}
+
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    margin-top: 20px;
+}
+
+tr,td {
+    padding: 15px;
+    background-color: white;
+}
+
+
+/*----------*/
+/*  Footer  */
+/*----------*/
+
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    float: left;
+    color: white;
+    text-align: center;
+}

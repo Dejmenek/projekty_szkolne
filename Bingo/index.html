@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Bingo</title>
+</head>
+<body>
+
+    <header>
+        <h1>BINGO</h1>
+    </header>
+
+    <div class="section">
+        <div class="section__circles">
+            <div class="section__circle section__circle--red">
+                <div class="inner__circle--red" id="red"></div>
+            </div>
+            <div class="section__circle section__circle--green">
+                <div class="inner__circle--green" id="green"></div>
+            </div>
+            <div class="section__circle section__circle--yellow">
+                <div class="inner__circle--yellow" id="yellow"></div>
+            </div>
+        </div>
+        <div class="section__btn">
+            <input type="button" value="LOSUJ" onclick="change_circles()">
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>TWOJA KARTA</h2>
+        <input type="button" value="ROZPOCZNIJ" onclick="start()">
+        <table id="table">
+            <tr>
+                <td id="c1" onclick="change_bg(1)"></td>
+                <td id="c2" onclick="change_bg(2)"></td>
+                <td id="c3" onclick="change_bg(3)"></td>
+                <td id="c4" onclick="change_bg(4)"></td>
+                <td id="c5" onclick="change_bg(5)"></td>
+            </tr>
+            <tr>
+                <td id="c6" onclick="change_bg(6)"></td>
+                <td id="c7" onclick="change_bg(7)"></td>
+                <td id="c8" onclick="change_bg(8)"></td>
+                <td id="c9" onclick="change_bg(9)"></td>
+                <td id="c10" onclick="change_bg(10)"></td>
+            </tr>
+            <tr>
+                <td id="c11" onclick="change_bg(11)"></td>
+                <td id="c12" onclick="change_bg(12)"></td>
+                <td id="c13" onclick="change_bg(13)"></td>
+                <td id="c14" onclick="change_bg(14)"></td>
+                <td id="c15" onclick="change_bg(15)"></td>
+            </tr>
+            <tr>
+                <td id="c16" onclick="change_bg(16)"></td>
+                <td id="c17" onclick="change_bg(17)"></td>
+                <td id="c18" onclick="change_bg(18)"></td>
+                <td id="c19" onclick="change_bg(19)"></td>
+                <td id="c20" onclick="change_bg(20)"></td>
+            </tr>
+            <tr>
+                <td id="c21" onclick="change_bg(21)"></td>
+                <td id="c22" onclick="change_bg(22)"></td>
+                <td id="c23" onclick="change_bg(23)"></td>
+                <td id="c24" onclick="change_bg(24)"></td>
+                <td id="c25" onclick="change_bg(25)"></td>
+            </tr>
+        </table>
+        <h2 id="win"></h2>
+    </div>
+
+    <footer>
+        <p>Stronę wykonał: Damian Sempski</p>
+    </footer>
+    
+</body>
+</html>
