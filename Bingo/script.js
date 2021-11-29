@@ -1,14 +1,10 @@
-var bit_map = [
-    ['c1','c2','c3','c4','c5'],
-    ['c6','c7','c8','c9','c10'],
-    ['c11','c12','c13','c14','c15'],
-    ['c16','c17','c18','c19','c20'],
-    ['c21','c22','c23','c24','c25'],
-    ['c1','c7','c13','c19','c25'],
-    ['c5','c9','c13','c17','c21']
+var bitmap = [
+    [0,0,0,0,0],
+    [0,0,0,0,0],
+    [0,0,0,0,0],
+    [0,0,0,0,0],
+    [0,0,0,0,0]
 ]
-
-selected = [];
 
 var li2 = [];
 
@@ -18,7 +14,7 @@ function random_number(){
 
 function start(){
     var li = [];
-    for(var i = 1; i <= 25; i++)
+    for(var i = 0; i < 25; i++)
     {
         var num = random_number();
         while(li.includes(num)){
@@ -49,30 +45,40 @@ function change_circles(){
 }
 
 function change_bg(n){
-    var element = document.getElementById("c" + n)
+    var element = document.getElementById("c" + n);
+    var x = Math.floor(n/5);
+    var y = n % 5;
     if(element.style.background == "" || element.style.background == "white"){
         element.style.background = "red";
-        selected.push(element.id)
+        bitmap[x][y] = 1;
     } else {
+        bitmap[x][y] = 0;
         element.style.background = "white";
     }
+    console.log(bitmap);
     check_win();
-    console.log(selected)
 }
 
 
 function check_win(){
-    for(var i = 0; i < bit_map.length; i++){
+    for(var i = 0; i < bitmap.length; i++){
         var exist = 0;
-        for (var j = 0; j < bit_map[i].length; j++){
-            if(bit_map[i][j].includes(selected[j])){
+        for (var j = 0; j < 5; j++){
+            if(bitmap[i][j] == 1 || bitmap[j][i] == 1 || bitmap[i+1][j+1] == 1){
                 exist += 1;
-                console.log(exist)
+                console.log(exist);
             }
         }
         if(exist == 5){
             alert("Wygrales");
+            //win();
+            exist = 0;
             break;
         }
     }
+}
+
+function win(){
+    document.getElementsById("win").innerHTML = "Wygrałeś";
+    document.getElementById("table").style.display = "none";
 }
