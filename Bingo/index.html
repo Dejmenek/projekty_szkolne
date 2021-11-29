@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="section__btn">
-            <input type="button" value="LOSUJ" onclick="change_circles()">
+            <input type="button" value="LOSUJ" onclick="change_circles()" id="wylacz" disabled>
         </div>
     </div>
 
@@ -71,7 +71,9 @@
                 <td id="c24" onclick="change_bg(24)"></td>
             </tr>
         </table>
+        <br>
         <h2 id="win"></h2>
+        <input type="button" value="RESET" onclick="restart()">
     </div>
 
     <footer>
