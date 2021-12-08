@@ -28,7 +28,7 @@ h1{
 .section {
     float: left;
     background-color: #63B0CD;
-    height: 400px;
+    min-height: 400px;
     width: 50%;
 }
 
@@ -44,6 +44,13 @@ h1{
     align-items: center;
     height: 200px;
 }
+
+/*Do zrobienia */
+.section__other_circles {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*_________________*/
 
 .section__circle {
     border-radius: 50%;

@@ -43,16 +43,22 @@ function change_circles(){
         let r = document.getElementById("red");
         let g = document.getElementById("green");
         let y = document.getElementById("yellow");
+        let o = document.getElementById("other");
+
+        //var element = document.createElement('div');
+        
         y.innerHTML = g.innerHTML;
         g.innerHTML = r.innerHTML;  
         r.innerHTML = a;
+
+        //o.appendChild(element);
     }
 }
 
 function change_bg(n){
     var element = document.getElementById("c" + n);
-    var x = Math.floor(n/5); //
-    var y = n % 5; //
+    var x = Math.floor(n/5); //array
+    var y = n % 5; //index of array's element
     if(element.style.background == "" || element.style.background == "white"){
         element.style.background = "red";
         bitmap[x][y] = 1;
@@ -76,6 +82,14 @@ function check_win(){
             else if (bitmap[j][i] == 1){ //check columns
                 exist += 1;
                 console.log(exist);
+            }
+            else if (bitmap[0][0] == 1 && bitmap[1][1] == 1 &&  bitmap[2][2] == 1 && bitmap[3][3] == 1 && bitmap[4][4] == 1){ //check cross
+                exist = 5;
+                break;
+            }
+            else if (bitmap[0][4] == 1 && bitmap[1][3] == 1 && bitmap[2][2] == 1 & bitmap[3][1] == 1 && bitmap[4][0] == 1){
+                exist = 5;
+                break;
             }
         }
         if(exist == 5){
