@@ -15,10 +15,17 @@
     </header>
 
     <section>
-        <input type="text" id="wyraz">
-        <input type="button" value="SPRAWDŹ" onclick="check()">
-        <p id="obraz"></p>
-        <p id="wynik"></p>
+        <div class="traffic-light">
+            <div class="bulb" id="red"></div>
+            <div class="bulb" id="yellow"></div>
+            <div class="bulb" id="green"></div>
+        </div>
+
+        <div class="checker">
+            <input type="text" id="wyraz">
+            <input type="button" value="SPRAWDŹ" onclick="check()">
+            <p id="wynik"></p>
+        </div>
     </section>
 
     <footer>
