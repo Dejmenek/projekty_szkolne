@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Checkers</title>
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <header>
+        <h1>Checkers</h1>
+    </header>
+
+    <section>
+
+        <div class="player_score">
+            <h2>Gracz</h2>
+            <p id="player_result"></p>
+        </div>
+
+        <div class="board">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+                    <th>F</th>
+                    <th>G</th>
+                    <th>H</th>
+                </tr>
+                <tr>
+                    <th>8</th>
+                    <td class="yellow"></td>
+                    <td class="green bot_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green bot_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green bot_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green bot_piece"></td>
+                    <th>8</th>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <td class="green bot_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green bot_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green bot_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green bot_piece"></td>
+                    <td class="yellow"></td>
+                    <th>7</th>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <td class="yellow"></td>
+                    <td class="green bot_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green bot_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green bot_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green bot_piece"></td>
+                    <th>6</th>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td class="green"></td>
+                    <td class="yellow"></td>
+                    <td class="green"></td>
+                    <td class="yellow"></td>
+                    <td class="green"></td>
+                    <td class="yellow"></td>
+                    <td class="green"></td>
+                    <td class="yellow"></td>
+                    <th>5</th>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td class="yellow"></td>
+                    <td class="green"></td>
+                    <td class="yellow"></td>
+                    <td class="green"></td>
+                    <td class="yellow"></td>
+                    <td class="green"></td>
+                    <td class="yellow"></td>
+                    <td class="green"></td>
+                    <th>4</th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td class="green player_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green player_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green player_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green player_piece"></td>
+                    <td class="yellow"></td>
+                    <th>3</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td class="yellow"></td>
+                    <td class="green player_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green player_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green player_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green player_piece"></td>
+                    <th>2</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td class="green player_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green player_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green player_piece"></td>
+                    <td class="yellow"></td>
+                    <td class="green player_piece"></td>
+                    <td class="yellow"></td>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+                    <th>F</th>
+                    <th>G</th>
+                    <th>H</th>
+                </tr>
+            </table>
+
+            <input type="button" value="ROZPOCZNIJ" onclick="start()">
+        </div>
+
+        <div class="bot_score">
+            <h2>Bot</h2>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Autor: Damian Sempski</p>
+    </footer>
+    
+</body>
+</html>
