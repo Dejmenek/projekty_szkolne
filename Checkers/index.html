@@ -8,8 +8,6 @@
     <title>Checkers</title>
 </head>
 <body>
-    <script src="script.js"></script>
-
     <header>
         <h1>Checkers</h1>
     </header>
@@ -17,7 +15,7 @@
     <section>
 
         <div class="player_score">
-            <h2>Gracz</h2>
+            <h2>Gracz 1</h2>
             <p id="player_result"></p>
         </div>
 
@@ -37,37 +35,37 @@
                 <tr>
                     <th>8</th>
                     <td class="yellow"></td>
-                    <td class="green bot_tile"></td>
+                    <td class="green"><div id="1"></div></td>
                     <td class="yellow"></td>
-                    <td class="green bot_tile"></td>
+                    <td class="green"><div id="2"></div></td>
                     <td class="yellow"></td>
-                    <td class="green bot_tile"></td>
+                    <td class="green"><div id="3"></div></td>
                     <td class="yellow"></td>
-                    <td class="green bot_tile"></td>
+                    <td class="green"><div id="4"></div></td>
                     <th>8</th>
                 </tr>
                 <tr>
                     <th>7</th>
-                    <td class="green bot_tile"></td>
+                    <td class="green"><div id="5"></div></td>
                     <td class="yellow"></td>
-                    <td class="green bot_tile"></td>
+                    <td class="green"><div id="6"></div></td>
                     <td class="yellow"></td>
-                    <td class="green bot_tile"></td>
+                    <td class="green"><div id="7"></div></td>
                     <td class="yellow"></td>
-                    <td class="green bot_tile"></td>
+                    <td class="green"><div id="8"></div></td>
                     <td class="yellow"></td>
                     <th>7</th>
                 </tr>
                 <tr>
                     <th>6</th>
                     <td class="yellow"></td>
-                    <td class="green bot_tile"></td>
+                    <td class="green"><div id="9"></div></td>
                     <td class="yellow"></td>
-                    <td class="green bot_tile"></td>
+                    <td class="green"><div id="10"></div></td>
                     <td class="yellow"></td>
-                    <td class="green bot_tile"></td>
+                    <td class="green"><div id="11"></div></td>
                     <td class="yellow"></td>
-                    <td class="green bot_tile"></td>
+                    <td class="green"><div id="12"></div></td>
                     <th>6</th>
                 </tr>
                 <tr>
@@ -96,37 +94,37 @@
                 </tr>
                 <tr>
                     <th>3</th>
-                    <td class="green player_tile"><p></p></td>
+                    <td class="green"><p id="13"></p></td>
                     <td class="yellow"></td>
-                    <td class="green player_tile"><p></p></td>
+                    <td class="green"><p id="14"></p></td>
                     <td class="yellow"></td>
-                    <td class="green player_tile"><p></p></td>
+                    <td class="green"><p id="15"></p></td>
                     <td class="yellow"></td>
-                    <td class="green player_tile"><p></p></td>
+                    <td class="green"><p id="16"></p></td>
                     <td class="yellow"></td>
                     <th>3</th>
                 </tr>
                 <tr>
                     <th>2</th>
                     <td class="yellow"></td>
-                    <td class="green player_tile"><p></p></td>
+                    <td class="green"><p id="17"></p></td>
                     <td class="yellow"></td>
-                    <td class="green player_tile"><p></p></td>
+                    <td class="green"><p id="18"></p></td>
                     <td class="yellow"></td>
-                    <td class="green player_tile"><p></p></td>
+                    <td class="green"><p id="19"></p></td>
                     <td class="yellow"></td>
-                    <td class="green player_tile"><p></p></td>
+                    <td class="green"><p id="20"></p></td>
                     <th>2</th>
                 </tr>
                 <tr>
                     <th>1</th>
-                    <td class="green player_tile"><p></p></td>
+                    <td class="green"><p id="21"></p></td>
                     <td class="yellow"></td>
-                    <td class="green player_tile"><p></p></td>
+                    <td class="green"><p id="22"></p></td>
                     <td class="yellow"></td>
-                    <td class="green player_tile"><p></p></td>
+                    <td class="green"><p id="23"></p></td>
                     <td class="yellow"></td>
-                    <td class="green player_tile"><p></p></td>
+                    <td class="green"><p id="24"></p></td>
                     <td class="yellow"></td>
                     <th>1</th>
                 </tr>
@@ -146,8 +144,9 @@
             <input type="button" value="ROZPOCZNIJ" onclick="start()">
         </div>
 
-        <div class="bot_score">
-            <h2>Bot</h2>
+        <div class="player2_score">
+            <h2>Gracz 2</h2>
+            <p id="player_result"></p>
         </div>
 
     </section>
@@ -155,6 +154,8 @@
     <footer>
         <p>Autor: Damian Sempski</p>
     </footer>
-    
+
+    <script src="script.js"></script>
+
 </body>
 </html>

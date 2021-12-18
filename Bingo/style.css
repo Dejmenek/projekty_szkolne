@@ -142,10 +142,13 @@ table,tr,td{
 
 table{
     margin-top: 20px;
+    table-layout: fixed;
 }
 
-tr,td {
-    padding: 15px;
+td {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
     background-color: white;
 }
 
@@ -162,3 +165,8 @@ footer{
     color: white;
     text-align: center;
 }
+
+/*---------------*/
+/* Media Queries */
+/*---------------*/
+

@@ -1,8 +1,8 @@
 var player_score = 12;
-var bot_score = 12;
-var turn = false;
-var player_pieces;
-var bot_pieces;
+var player2_score = 12;
+var turn = true; //false - ruch czarnych a true - ruch bialych
+var player_pieces = document.querySelectorAll("td > p");
+var player2_pieces = document.querySelectorAll("td > div");
 
 var board = [
     [0,1,0,2,0,3,0,4],
@@ -13,7 +13,6 @@ var board = [
     [13,0,14,0,15,0,16,0],
     [0,17,0,18,0,19,0,20],
     [21,0,22,0,23,0,24,0]
-
 ]
 
 function start() {
@@ -22,47 +21,37 @@ function start() {
  }
 
 
-function player_move() {
-    
+function player_move(id) {
+    console.log("Cichy");
+    console.log(id);
+    //index = board.indexOf()
+    change_player();
 }
 
-function bot_move() {
-
+function player2_move(id) {
+    console.log("Chuj");
+    console.log(id);
+    change_player();
 } 
 
-function check_win() {
-    if(player_score == 0){
-        document.getElementById("player_result").innerHTML = "Przegrałeś";
-    }
-    if(bot_score == 0){
-        document.getElementById("player_result").innerHTML = "Wygrałeś";
-    }
-}
-
 function assign_pieces(){
-    var draw = Math.round(Math.random())
-    var player_tiles = document.querySelectorAll(".player_tile")
-    var bot_tiles = document.querySelectorAll(".bot_tile")
+    var draw = Math.round(Math.random());
     
     if(draw == 1){
-        for(var i = 0; i < player_tiles.length; i++){
-            player_tiles[i].innerHTML = "<p class='r_piece'></p>";
+        for(var i = 0; i < player_pieces.length; i++){
+            player_pieces[i].className = "r_piece";
         }
-        for(var j = 0; j < bot_tiles.length; j++){
-            bot_tiles[j].innerHTML = "<p class='w_piece'></p>";
+        for(var j = 0; j < player2_pieces.length; j++){
+            player2_pieces[j].className = "w_piece";
         }
-        player_pieces = document.querySelectorAll(".r_piece");
-        bot_pieces = document.querySelectorAll(".w_piece");
     }
     else {
-        for(var i = 0; i < player_tiles.length; i++){
-            player_tiles[i].innerHTML = "<p class='w_piece'></p>";
+        for(var i = 0; i < player_pieces.length; i++){
+            player_pieces[i].className = "w_piece";
         }
-        for(var j = 0; j < bot_tiles.length; j++){
-            bot_tiles[j].innerHTML = "<p class='r_piece'></p>";
+        for(var j = 0; j < player2_pieces.length; j++){
+            player2_pieces[j].className = "r_piece";
         }
-        player_pieces = document.querySelectorAll(".w_piece");
-        bot_pieces = document.querySelectorAll(".r_piece");
     }
 }
 
@@ -72,6 +61,53 @@ function reset_borders(){
     }
 }
 
-function add_piece_location(){
 
+function add_event_listeners(){
+    if(turn){
+        for(var i = 0; i < player_pieces.length; i++){
+            player_pieces[i].addEventListener("click",function(){player_move(this.id)});
+        }
+    }
+    else {
+        for(var i = 0; i < player2_pieces.length; i++){
+            player2_pieces[i].addEventListener("click",function(){player2_move(this.id)});
+        }
+    }
 }
+
+function remove_event_listeners(){
+    if(turn){
+        turn = false;
+        for(var i = 0; i < player_pieces.length; i++){
+            player_pieces[i].removeEventListener("click",player_move);
+        }
+    }
+    else {
+        turn = true;
+        for(var i = 0; i < player2_pieces.length; i++){
+            player2_pieces[i].removeEventListener("click",player2_move);
+        }
+    }
+    check_win();
+}
+
+function check_win() {
+    if(player_score == 0){
+        document.getElementById("player_result").innerHTML = "Przegrałeś";
+    }
+    if(player2_score == 0){
+        document.getElementById("player_result").innerHTML = "Wygrałeś";
+    }
+}
+
+function change_player() {
+    if(turn){
+        remove_event_listeners();
+    }
+    else {
+        remove_event_listeners();
+    }
+    add_event_listeners();
+}
+
+add_event_listeners();
