@@ -6,19 +6,23 @@
     margin: 0;
 }
 
+html {
+    font-size: 16px;
+}
+
 /*----------*/
 /*  Header  */
 /*----------*/
         
 header{
-    height: 100px;
+    min-height: 6.25rem;
     background-color: #39393A;
     color: white;
     text-align: center;
 }
 
 h1{
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 /*----------*/
@@ -28,7 +32,7 @@ h1{
 .section {
     float: left;
     background-color: #63B0CD;
-    min-height: 400px;
+    min-height: 25rem;
     width: 50%;
 }
 
@@ -146,8 +150,8 @@ table{
 }
 
 td {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     padding: 10px;
     background-color: white;
 }
