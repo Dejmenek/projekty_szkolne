@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat',sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.flip {
+    transform: rotateY(180deg);
+}
+
+.header {
+    padding: 1em;
+    background-color: #0D1B1E;
+    color: white;
+}
+
+.header__title {
+    letter-spacing: 5px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: #D4E4BC;
+}
+
+.board {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    min-height: 600px;
+    border-radius: 0.5em 0.5em 10em 10em;
+    background: linear-gradient(to right top,#1E4E3B,#0E2A27);
+    box-shadow: 
+    -1px -1px 5px 10px #855439,
+    -2px -2px 0 20px #6B2504;
+}
+
+.game {
+    text-align: center;
+}
+
+.dealer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5em;
+}
+
+.start {
+    padding-top: 5em;
+}
+
+.dealer-cards,
+.player-cards {
+    display: flex;
+    gap: 1em;
+}
+
+.score-text {
+    color: white;
+}
+
+.card-pile {
+    position: absolute;
+    right: 0;
+    padding: 2em 3em;
+    transform: rotate(-45deg);
+}
+
+.card {
+    height: 120px;
+    width: 80px;
+    border: 5px solid white;
+}
+
+.card__img {
+    transition: all 2s ease;
+}
+
+.btn-group {
+    position: absolute;
+    bottom: 0;
+    padding: 1em 0;
+    display: flex;
+    gap: 1em;
+    visibility: hidden;
+}
+
+.btn {
+    padding: 0.5em 1em;
+    background-color: red;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.footer {
+    padding: 1em;
+    background-color: #0D1B1E;
+    color: white;
+    text-align: center;
+}
