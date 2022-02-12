@@ -17,7 +17,7 @@ function check(){
     if(pswd.length > 8){
         var cyfra = false;
         var specjalny = false;
-        for(znak of pswd){
+        for(let znak of pswd){
             if(znaki.includes(znak)){
                 specjalny = true;
             }
@@ -25,7 +25,7 @@ function check(){
                 cyfra = true;
             }
         }
-        if(cyfra === true){
+        if(cyfra == true){
             clear();
             document.getElementById("green").style.backgroundColor = "green";
             document.getElementById("wynik").innerHTML = "hasło <span style='color: chartreuse'>dobre</span>";
