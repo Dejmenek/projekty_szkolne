@@ -27,7 +27,7 @@
                     </div>
                     <div class="dealer-cards">
                         <div class="card"></div>
-                        <div class="card"></div>
+                        <div class="card card--hidden"></div>
                     </div>
                     <div class="start" id="start-button">
                         <button class="btn" onclick="start()">Start</button>
@@ -46,13 +46,11 @@
             </div>
             <div class="btn-group" id="buttons">
                 <button class="btn" onclick="drawCard()">Hit</button>
-                <button class="btn">Stand</button>
-                <button class="btn">Double</button>
-                <button class="btn">Split</button>
+                <button class="btn" onclick="stand()">Stand</button>
+                <button class="btn" onclick="double()">Double</button>
             </div>
         </div>
     </main>
-
 
     <footer class="footer">
         <p>Stronę wykonał Damian Sempski</p>

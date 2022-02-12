@@ -2,7 +2,7 @@
 const cardsContainers = document.querySelectorAll(".card");
 const buttons = document.getElementById("buttons");
 
-const cardArray = [
+const cardsArray = [
     "ace_clubs",
     "ace_diamond",
     "ace_heart",
@@ -57,17 +57,26 @@ const cardArray = [
     "king_spades"
 ]
 
+function createCards() {
+    for(let i = 0; i < cardsContainers.length; i++){
+        let img = document.createElement("img");
+        img.classList.add("card__img");
+        img.src = `./assets/cards/card_back.svg`;
+
+        let random_card = Math.floor(Math.random() * 52);
+
+        setTimeout(function() {
+            cardsContainers[i].appendChild(img);
+            img.classList.add("flip");
+        },i * 500)
+    }
+}
+
 function start() {
     buttons.style.visibility = "visible";
     document.getElementById("start-button").style.visibility = "hidden";
-    
-    for(let i = 0; i < cardsContainers.length; i++){
-        let img = document.createElement("img");
-        img.className = "card__img";
-        let random_card = Math.floor(Math.random() * 52);
-        img.src = `./assets/cards/card_back.svg`;
-        cardsContainers[i].appendChild(img);
-    }
+
+    createCards();
 
 }
 
@@ -75,6 +84,10 @@ function drawCard() {
 
 }
 
-function flipCard() {
+function stand() {
+    buttons.style.pointerEvents = "none";
+}
+
+function double() {
 
 }
