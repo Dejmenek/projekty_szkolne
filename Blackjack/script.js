@@ -385,11 +385,18 @@ function stand() {
 }
 
 function double() {
-    disableButton(hitButton);
-    disableButton(standButton);
-    drawCard(playerHand,playerBoard);
-    changeHand();
-    dealerPlay();
+    if(money - currentWager <= 0){
+        alert("Masz za mało pieniędzy");
+        disableButton(doubleButton);
+    }
+    else {
+        money -= currentWager;
+        disableButton(hitButton);
+        disableButton(standButton);
+        drawCard(playerHand,playerBoard);
+        changeHand();
+        dealerPlay();
+    }
 }
 
 //Funkcja odpowiadająca za zmianę ruchu
