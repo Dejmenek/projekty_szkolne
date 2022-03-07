@@ -6,6 +6,9 @@ const hitButton = document.getElementById("hit-btn");
 const doubleButton = document.getElementById("double-btn");
 const standButton = document.getElementById("stand-btn");
 
+//Żetony
+const chips = document.querySelectorAll(".chip");
+
 //Wiadomość końcowa
 let messageTextContainer = document.getElementById("message");
 let messageText = document.getElementById("message-text");
@@ -258,6 +261,12 @@ function disableButton(buttonName) {
     buttonName.disabled = true;
 }
 
+function disableChips() {
+    for(let i = 0; i < chips.length; i++) {
+        chips[i].setAttribute("onclick","");
+    }
+}
+
 //Funkcja losująca kartę
 function getCard() {
     return cardsArray[Math.floor(Math.random() * 52)]
@@ -272,6 +281,7 @@ function start() {
         alert("Masz za mało pieniędzy, wybierz niższą stawkę")
     }
     else {
+        disableChips();
         startButton.style.visibility = "hidden";
         buttons.style.visibility = "visible";
         money -= currentWager;
@@ -281,6 +291,7 @@ function start() {
     }
 }
 
+//Funkcja wyłączająca możliwość zmiany stawki
 function selectWager(amount) {
     currentWager = amount;
 }
@@ -391,6 +402,8 @@ function double() {
     }
     else {
         money -= currentWager;
+        currentWager = currentWager * 2;
+        updateBalanceText();
         disableButton(hitButton);
         disableButton(standButton);
         drawCard(playerHand,playerBoard);
