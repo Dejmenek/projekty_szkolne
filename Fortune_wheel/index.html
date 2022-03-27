@@ -8,72 +8,124 @@
     <title>Fortune Wheel</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container flex">
+    <header class="header flex">
+        <div class="container">
             <div class="logo flex">
-                <img src="./assets/roulette.png" alt="logo">
+                <img src="./assets/img/roulette.png" alt="logo">
                 <h1 class="header__title">Fortune Wheel</h1>
             </div>
         </div>
     </header>
 
     <main class="main flex-center">
-        <div class="wheel">
-            <object id="test" data="fortune_wheel.svg" type="image/svg+xml"></object>
-            <button onclick="spin()">Zakręć kołem</button>
+        <div class="game flex-gap">
+            <div class="wheel">
+                <object id="test" data="fortune_wheel.svg" type="image/svg+xml"></object><br>
+                <button class="btn btn-spin" onclick="start()">Zakręć kołem</button>
+            </div>
+            <div class="puzzle">
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div><br>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div><br>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div><br>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+                <div class="letter-cell"></div>
+
+                <div class="alphabet">
+                    <div class="part-one flex">
+                        <p class="letter">A</p>
+                        <p class="letter">Ą</p>
+                        <p class="letter">B</p>
+                        <p class="letter">C</p>
+                        <p class="letter">Ć</p>
+                        <p class="letter">D</p>
+                        <p class="letter">E</p>
+                        <p class="letter">Ę</p>
+                        <p class="letter">F</p>
+                        <p class="letter">G</p>
+                        <p class="letter">H</p>
+                        <p class="letter">I</p>
+                        <p class="letter">J</p>
+                        <p class="letter">K</p>
+                        <p class="letter">L</p>
+                        <p class="letter">Ł</p>
+                        <p class="letter">M</p>
+                        <p class="letter">N</p>
+                        <p class="letter">Ń</p>
+                    </div>
+                    <div class="part-two flex">
+                        <p class="letter">O</p>
+                        <p class="letter">Ó</p>
+                        <p class="letter">P</p>
+                        <p class="letter">R</p>
+                        <p class="letter">S</p>
+                        <p class="letter">Ś</p>
+                        <p class="letter">T</p>
+                        <p class="letter">U</p>
+                        <p class="letter">W</p>
+                        <p class="letter">Y</p>
+                        <p class="letter">Z</p>
+                        <p class="letter">Ź</p>
+                        <p class="letter">Ż</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="puzzle">
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div><br>
-
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div><br>
-
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div><br>
-
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
-            <div class="letter"></div>
+        <div class="players flex">
+            <div class="player">
+                <img class="player_one" src="./assets/img/player.png" alt="player">
+                <p class="player__balance">0$</p>
+            </div>
+            <div class="player">
+                <img src="./assets/img/bot_one.png" alt="first bot">
+                <p class="player__balance">0$</p>
+            </div>
+            <div class="player">
+                <img src="./assets/img/bot_two.png" alt="second bot">
+                <p class="player__balance">0$</p>
+            </div>
         </div>
     </main>
 

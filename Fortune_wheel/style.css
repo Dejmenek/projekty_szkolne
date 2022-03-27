@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+:root {
+    --rotate-start: 0;
+    --rotate-end: 720deg;
+}
+
 *,
 *::before,
 *::after {
@@ -49,16 +54,34 @@ button {
 .spin {
     animation-name: spin;
     animation-duration: 3s;
+    animation-timing-function: ease;
     transform-origin: center;
+}
+
+.pointer {
+    animation-name: pointer;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    transform-origin: center 0;
 }
 
 @keyframes spin {
     0% {
-        transform: rotate(0);
+        transform: rotate(var(--rotate-start));
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate(var(--rotate-end));
     }
+}
+
+@keyframes pointer {
+    0%,100% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(-7deg);
+    }
+    
 }
 
 .flex {
@@ -67,11 +90,23 @@ button {
     gap: 1em;
 }
 
+.flex-gap {
+    display: flex;
+    align-items: center;
+    gap: 5em;
+}
+
 .flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     gap: 2em;
+}
+
+.active_player {
+    box-shadow: 0px 0px 10px 5px rgba(199, 80, 0, 1),
+                inset 0px 0px 10px 13px rgba(199, 80, 0, 1);
 }
 
 .header {
@@ -91,12 +126,38 @@ button {
     background-color: #621B00;
 }
 
-.letter {
+.wheel {
+    text-align: center;
+}
+
+.balance {
+    padding-bottom: 1em;
+}
+
+.letter-cell {
     display: inline-block;
     height: 70px;
     width: 40px;
     background-color: #F1E0C5;
     outline: 5px solid black;
+}
+
+.letter {
+    color: white;
+    font-size: 18px;
+}
+
+.letter-disabled {
+    color: grey;
+}
+
+.player {
+    text-align: center;
+}
+
+.player__balance {
+    color: white;
+    font-size: 20px;
 }
 
 .footer {
