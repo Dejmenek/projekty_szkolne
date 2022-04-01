@@ -2,7 +2,7 @@
 
 :root {
     --rotate-start: 0;
-    --rotate-end: 720deg;
+    --rotate-end: 0;
 }
 
 *,
@@ -55,6 +55,7 @@ button {
     animation-name: spin;
     animation-duration: 3s;
     animation-timing-function: ease;
+    animation-fill-mode: forwards;
     transform-origin: center;
 }
 
@@ -70,7 +71,7 @@ button {
         transform: rotate(var(--rotate-start));
     }
     100% {
-        transform: rotate(var(--rotate-end));
+        transform: rotate(calc(var(--rotate-end) + 720deg));
     }
 }
 
@@ -127,6 +128,10 @@ button {
 }
 
 .wheel {
+    text-align: center;
+}
+
+.puzzle {
     text-align: center;
 }
 
