@@ -19,8 +19,7 @@
 
     <main class="main flex-center">
         <div class="game flex-gap">
-            <div class="wheel">
-                <!-- <object id="test" data="fortune_wheel.svg" type="image/svg+xml"></object><br> -->
+            <div class="wheel flex-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="375" height="373" fill="none" viewBox="0 0 375 373">
                     <script type="text/javascript" src="script.js">
                     </script>
@@ -500,58 +499,66 @@
                       </filter>
                     </defs>
                   </svg>
-                <button class="btn btn-spin" onclick="start()">Zakręć kołem</button>
+                <div class="buttons flex">
+                  <button class="btn btn-spin" onclick="spin()">Zakręć kołem</button>
+                  <button class="btn btn-start" onclick="start()">Rozpocznij gre</button>
+                  <button class="btn btn-buy" onclick="buyVowel()">Kup samogłoske</button>
+                  <button class="btn btn-end" onclick="solve()">Odgadnij hasło</button>
+                </div>
             </div>
             <div class="puzzle">
+                <h2 class="puzzle__category">Kategoria:</h2>
+                <div class="puzzle__letters grid">
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                  <div class="letter-cell"></div>
+                </div>
                 <h2 class="player__balance">Pieniądze: 0$</h2>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div><br>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div><br>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div><br>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
-                <div class="letter-cell"></div>
             </div>
         </div>
     </main>

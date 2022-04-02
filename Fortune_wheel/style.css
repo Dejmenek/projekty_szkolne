@@ -105,6 +105,11 @@ button {
     gap: 2em;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
 .active_player {
     box-shadow: 0px 0px 10px 5px rgba(199, 80, 0, 1),
                 inset 0px 0px 10px 13px rgba(199, 80, 0, 1);
@@ -127,8 +132,10 @@ button {
     background-color: #621B00;
 }
 
-.wheel {
-    text-align: center;
+.btn-end,
+.btn-spin,
+.btn-buy {
+    display: none;
 }
 
 .puzzle {
@@ -140,27 +147,17 @@ button {
 }
 
 .letter-cell {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 70px;
     width: 40px;
-    background-color: #F1E0C5;
+    background-color: #A99985;
     outline: 5px solid black;
 }
 
-.letter {
-    color: white;
-    font-size: 18px;
-}
-
-.letter-disabled {
-    color: grey;
-}
-
-.player {
-    text-align: center;
-}
-
-.player__balance {
+.player__balance,
+.puzzle__category {
     color: white;
     font-size: 20px;
 }
