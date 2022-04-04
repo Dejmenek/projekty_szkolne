@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Notatnik</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__heading">Notatnik online</h1>
+    </header>
+
+    <main class="notebook">
+        <div class="notebook__tools">
+            <div class="text-tools">
+                <button class="btn" onclick="boldText()">B</button>
+                <button class="btn" onclick="underlineText()">U</button>
+                <button class="btn" onclick="italicText()">I</button>
+                <input class="font-size" type="number" min="1" onkeydown="return false">
+                <select name="font" class="font">
+                    <option value="0">Wybierz czcionke</option>
+                    <option value="'Times New Roman',serif">Times New Roman</option>
+                    <option value="'Georgia',serif">Georgia</option>
+                    <option value="'Verdana',sans-serif">Verdana</option>
+                    <option value="'Lucida Handwriting',cursive">Lucida Handwriting</option>
+                    <option value="'Comic Sans MS',Comic Sans,cursive">Comic Sans MS</option>
+                </select>
+            </div><br>
+            <div class="other-tools">
+                <input class="color-picker" type="color">
+                <button class="btn" onclick="centerText()">Wyśrodkuj</button>
+                <button class="btn" onclick="leftText()">Do lewej</button>
+                <button class="btn" onclick="rightText()">Do prawej</button>
+            </div>
+        </div>  
+        <div class="notebook__content">
+            <p class="notebook__heading" contenteditable="true" spellcheck="false"></p>
+            <p class="notebook__text" contenteditable="true" spellcheck="false"></p>
+            <button onclick="createNote()">Stwórz notatke</button>
+            <button onclick="chooseNote()">Wybierz notatke</button>
+            <button onclick="deleteNote()">Usuń notatke</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Stronę wykonał Damian Sempski</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

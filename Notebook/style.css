@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2? family= Monserrat:wght@500 & display=swap');
+
+:root {
+    --ff-primary: 'Monserrat', sans-serif;
+
+    --bg-primary-clr: #BD632F;
+    --bg-secondary-clr: #2b2d42;
+
+    --text-clr: #f8f7f9;
+}
+
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--ff-primary);
+    color: var(--text-clr);
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+.notebook__tools,
+.notebook__content,
+.footer,
+.header {
+    text-align: center;
+}
+
+.btn {
+    padding: 0 1em;
+}
+
+.header {
+    background-color: var(--bg-primary-clr);
+    padding: 2em 0;
+}
+
+.notebook {
+    padding: 2em 0;
+    background-color: var(--bg-secondary-clr);
+}
+
+.notebook__tools {
+    padding-bottom: 2em;
+}
+
+.notebook__heading {
+    width: 800px;
+    height: 50px;
+    margin: 0 auto;
+    border: 5px solid #D8973C;
+    outline: none;
+}
+
+.notebook__text {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    border: 5px solid #D8973C;
+    outline: none;
+}
+
+.footer {
+    padding: 2em;
+    background-color: var(--bg-primary-clr);
+}
