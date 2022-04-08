@@ -13,34 +13,42 @@
     </header>
 
     <main class="notebook">
-        <div class="notebook__tools">
-            <div class="text-tools">
-                <button class="btn" onclick="boldText()">B</button>
-                <button class="btn" onclick="underlineText()">U</button>
-                <button class="btn" onclick="italicText()">I</button>
-                <input class="font-size" type="number" min="1" onkeydown="return false">
-                <select name="font" class="font">
-                    <option value="0">Wybierz czcionke</option>
-                    <option value="'Times New Roman',serif">Times New Roman</option>
-                    <option value="'Georgia',serif">Georgia</option>
-                    <option value="'Verdana',sans-serif">Verdana</option>
-                    <option value="'Lucida Handwriting',cursive">Lucida Handwriting</option>
-                    <option value="'Comic Sans MS',Comic Sans,cursive">Comic Sans MS</option>
-                </select>
-            </div><br>
-            <div class="other-tools">
-                <input class="color-picker" type="color">
-                <button class="btn" onclick="centerText()">Wyśrodkuj</button>
-                <button class="btn" onclick="leftText()">Do lewej</button>
-                <button class="btn" onclick="rightText()">Do prawej</button>
+        <div class="container">
+            <div class="notebook__tools">
+                <div class="text-tools flex-center">
+                    <button class="btn btn-text" id="bold-text">B</button>
+                    <button class="btn btn-text" id="underline-text">U</button>
+                    <button class="btn btn-text" id="italic-text">I</button>
+                    <button class="btn btn-text" id="line"><s>abc</s></button>
+                    <input class="font-size" type="number" min="1" onkeydown="return false">
+                    <select name="font" class="font">
+                        <option value="0">Wybierz czcionke</option>
+                        <option value="'Times New Roman',serif">Times New Roman</option>
+                        <option value="'Georgia',serif">Georgia</option>
+                        <option value="'Verdana',sans-serif">Verdana</option>
+                        <option value="'Lucida Handwriting',cursive">Lucida Handwriting</option>
+                        <option value="'Comic Sans MS',Comic Sans,cursive">Comic Sans MS</option>
+                    </select>
+                </div><br>
+                <div class="other-tools flex-center">
+                    <button class="btn" id="list" onclick="createBulletList()">
+                        <img src="./img/list.png" alt="bullet list">
+                    </button>
+                    <input class="color-picker" type="color">
+                    <button class="btn" onclick="leftText()">Do lewej</button>
+                    <button class="btn" onclick="centerText()">Wyśrodkuj</button>
+                    <button class="btn" onclick="rightText()">Do prawej</button>
+                    <input class="image" type="text">
+                    <button class="btn" onclick="addImg()">Dodaj zdjęcie</button>
+                </div>
             </div>
-        </div>  
-        <div class="notebook__content">
-            <p class="notebook__heading" contenteditable="true" spellcheck="false"></p>
-            <p class="notebook__text" contenteditable="true" spellcheck="false"></p>
-            <button onclick="createNote()">Stwórz notatke</button>
-            <button onclick="chooseNote()">Wybierz notatke</button>
-            <button onclick="deleteNote()">Usuń notatke</button>
+            <div class="notebook__content">
+                <p class="notebook__heading flex-center" contenteditable="true" spellcheck="false"></p>
+                <p class="notebook__text" contenteditable="true" spellcheck="false"></p><br>
+                <button class="btn" onclick="createNote()">Stwórz notatke</button>
+                <button class="btn" onclick="chooseNote()">Wybierz notatke</button>
+                <button class="btn" onclick="deleteNote()">Usuń notatke</button>
+            </div>
         </div>
     </main>
 

@@ -1,15 +1,23 @@
 const textContainer = document.querySelector(".notebook__text");
 const headingContainer = document.querySelector(".notebook__heading");
-const colorContainer = document.querySelector(".color-picker");
-const fileContainer = document.querySelector(".picture");
+
+const boldButton = document.querySelector("#bold-text");
+const italicButton = document.querySelector("#italic-text");
+const underlineButton = document.querySelector("#underline-text");
+const lineButton = document.querySelector("#line");
+
+const listButton = document.querySelector("#list");
+
 const fontSizeContainer = document.querySelector(".font-size");
 const fontFamilyContainer = document.querySelector(".font");
 
+const colorContainer = document.querySelector(".color-picker");
+const imageButton = document.querySelector(".image");
+
 const notesArray = [];
 
-let isBold = false
-let isUnderlined = false;
 let isItalic = false;
+let isLine = false
 
 let textColor = colorContainer.value;
 
@@ -22,7 +30,7 @@ function createNote() {
     if(textContainer.textContent == "" && headingContainer.textContent == "") {
         alert("Wprowadź wszystkie dane");
     } else {
-        let noteText = textContainer.textContent;
+        let noteText = textContainer.innerHTML;
         let noteTitle = headingContainer.textContent;
 
         let note = new Note(noteTitle,noteText);
@@ -33,10 +41,10 @@ function createNote() {
 }
 
 function chooseNote() {
-    let chosenNote = parseInt(prompt("Wybierz notatke jako index: "))
+    let chosenNote = parseInt(prompt("Wybierz numer notatki:"))
 
-    if(isNaN(chosenNote) || chosenNote > notesArray.length-1) {
-        parseInt(prompt("Wprowadz prawidlowy index notatki :)"))
+    if(isNaN(chosenNote) || chosenNote >= notesArray.length) {
+        alert("Wprowadz prawidlowy numer notatki :)");
     } else {
         resetText();
         showNote(chosenNote);
@@ -44,7 +52,7 @@ function chooseNote() {
 }
 
 function showNote(chosenNote) {
-    textContainer.textContent = notesArray[chosenNote].text;
+    textContainer.innerHTML = notesArray[chosenNote].text;
     headingContainer.textContent = notesArray[chosenNote].title;
 }
 
@@ -54,45 +62,32 @@ function resetText() {
 }
 
 function deleteNote() {
-    let chosenNote = parseInt(prompt("Wybierz notatke jako index: "))
+    let chosenNote = parseInt(prompt("Wybierz numer notatki:"))
 
-    if(isNaN(chosenNote) || chosenNote > notesArray.length-1) {
-        parseInt(prompt("Wprowadz prawidlowy index notatki :)"))
+    if(isNaN(chosenNote) || chosenNote >= notesArray.length) {
+        alert("Wprowadz prawidlowy numer notatki :)");
     } else {
         notesArray.splice(chosenNote,1);
         resetText();
     }
 }
 
-function boldText() {
-    if(isBold) {
-        textContainer.style.fontWeight = "inherit";
-        isBold = false;
-    } else {
-        textContainer.style.fontWeight = "bold";
-        isBold = true;
-    }
-}
+boldButton.addEventListener("click", () => {
+    textContainer.classList.toggle("bold");
+})
 
-function underlineText() {
-    if(isUnderlined) {
-        textContainer.style.textDecoration = "none";
-        isUnderlined = false;
-    } else {
-        textContainer.style.textDecoration = "underline";
-        isUnderlined = true;
-    }
-}
+underlineButton.addEventListener("click", () => {
+    textContainer.classList.toggle("underline");
+})
 
-function italicText() {
-    if(isItalic) {
-        textContainer.style.fontStyle = "inherit";
-        isItalic = false;
-    } else {
-        textContainer.style.fontStyle = "italic";
-        isItalic = true;
-    }
-}
+
+italicButton.addEventListener("click", () => {
+    textContainer.classList.toggle("italic");
+})
+
+lineButton.addEventListener("click", () => {
+    textContainer.classList.toggle("line-through");
+})
 
 function centerText() {
     textContainer.style.textAlign = "center";
@@ -110,16 +105,32 @@ function changeFontSize() {
     textContainer.style.fontSize = `${this.value}px`;
 }
 
-fontSizeContainer.addEventListener("mouseout",changeFontSize);
+fontSizeContainer.addEventListener("change",changeFontSize);
 
 function changeTextColor() {
     textContainer.style.color = `${this.value}`;
 }
 
-colorContainer.addEventListener("mouseout",changeTextColor);
+colorContainer.addEventListener("change",changeTextColor);
 
 function changeFontFamily() {
     textContainer.style.fontFamily = `${this.value}`
 }
 
-fontFamilyContainer.addEventListener("mouseout",changeFontFamily);
+fontFamilyContainer.addEventListener("change",changeFontFamily);
+
+function createBulletList() {
+    let list = document.createElement("ul");
+    textContainer.appendChild(list);
+}
+
+function addImg() {
+    if(imageButton.value != "") {
+        let img = document.createElement('img');
+        let link = imageButton.value;
+        img.setAttribute('src',link);
+        textContainer.appendChild(img);
+    } else {
+        alert("Wypełnij pole linkiem do zdjęcia");
+    }
+}
