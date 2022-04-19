@@ -1,10 +1,6 @@
 const textContainer = document.querySelector(".notebook__text");
 const headingContainer = document.querySelector(".notebook__heading");
 
-const accessPanel = document.querySelector(".access-panel__content");
-const accessOpen = document.querySelector(".access-panel__open");
-const accessClose = document.querySelector(".access-panel__close");
-
 const boldButton = document.querySelector("#bold-text");
 const italicButton = document.querySelector("#italic-text");
 const underlineButton = document.querySelector("#underline-text");
@@ -20,14 +16,10 @@ const imageButton = document.querySelector(".image");
 
 const notesArray = [];
 
-let isItalic = false;
-let isLine = false
-
-let textColor = colorContainer.value;
-
-function Note(title,text) {
+function Note(title, text, style) {
     this.title = title;
     this.text = text;
+    this.style = style;
 }
 
 function createNote() {
@@ -36,8 +28,9 @@ function createNote() {
     } else {
         let noteText = textContainer.innerHTML;
         let noteTitle = headingContainer.textContent;
+        let noteStyle = textContainer.getAttribute('style');
 
-        let note = new Note(noteTitle,noteText);
+        let note = new Note(noteTitle, noteText, noteStyle);
         notesArray.push(note);
 
         resetText();
@@ -57,6 +50,7 @@ function chooseNote() {
 
 function showNote(chosenNote) {
     textContainer.innerHTML = notesArray[chosenNote].text;
+    textContainer.setAttribute('style',notesArray[chosenNote].style);
     headingContainer.textContent = notesArray[chosenNote].title;
 }
 
@@ -138,13 +132,3 @@ function addImg() {
         alert("Wypełnij pole linkiem do zdjęcia");
     }
 }
-
- accessOpen.addEventListener("click", () => {
-    accessOpen.style.display = "none";
-    accessPanel.style.width = "300px";
-});
-
-accessClose.addEventListener("click", () => {
-    accessOpen.style.display = "block";
-    accessPanel.style.width = "0";
-});

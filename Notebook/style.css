@@ -76,10 +76,6 @@ img {
     cursor: pointer;
 }
 
-.visible {
-    display: block;
-}
-
 input[type=number],
 input[type=text],
 select {
@@ -156,7 +152,6 @@ input[type=color]::-webkit-color-swatch {
     height: 500px;
     width: 0;
     overflow-y: auto;
-    text-align: center;
     background-color: #DBF2F1;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
@@ -165,6 +160,19 @@ input[type=color]::-webkit-color-swatch {
 
 .access-panel__heading {
     padding: 1rem 0;
+}
+
+.access-panel-settings {
+    padding: 1em;
+}
+
+.settings {
+    margin-top: 1em;
+}
+
+.setting {
+    cursor: pointer;
+    border: 2px solid black;
 }
 
 .notebook__tools {
