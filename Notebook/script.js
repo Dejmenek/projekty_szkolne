@@ -103,13 +103,13 @@ function changeFontSize() {
     textContainer.style.fontSize = `${this.value}px`;
 }
 
-fontSizeContainer.addEventListener("change",changeFontSize);
+fontSizeContainer.addEventListener("change", changeFontSize);
 
 function changeTextColor() {
     textContainer.style.color = `${this.value}`;
 }
 
-colorContainer.addEventListener("change",changeTextColor);
+colorContainer.addEventListener("change", changeTextColor);
 
 function changeFontFamily() {
     textContainer.style.fontFamily = `${this.value}`
