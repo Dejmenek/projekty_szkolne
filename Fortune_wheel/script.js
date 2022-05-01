@@ -8,7 +8,6 @@ const letters = document.getElementsByClassName("letter-cell");
 const cashContainer = document.querySelector(".player__balance");
 let cashBalance = 0;
 
-let spins = 0;
 let isFound = false;
 
 //Przyciski
