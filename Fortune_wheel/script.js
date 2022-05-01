@@ -9,6 +9,7 @@ const cashContainer = document.querySelector(".player__balance");
 let cashBalance = 0;
 
 let spins = 0;
+let isFound = false;
 
 //Przyciski
 const btnSpin = document.querySelector(".btn-spin");
@@ -69,8 +70,9 @@ const puzzles = [
 ];
 
 let puzzle = drawPuzzle();
-let chars = puzzle.solution.split('');
+let chars = puzzle.solution.toUpperCase().split('');
 
+//Tablica pól
 const slices = [
     {
         "deg": 11.25,
@@ -175,8 +177,20 @@ function spin() {
     resetAnimation();
 
     setTimeout(function(){
-        updateBalance(slice);
-        updateBoard();
+        let letter;
+        isFound = false;
+
+        while(true) {
+            letter = prompt("Wprowadz spółgłoskę: ");
+            if(/[^aeiouyąę]{1}/.test(letter)) {
+                break;
+            }
+        }
+
+        updateBoard(letter);
+
+        if(isFound == true) updateBalance(slice);
+
         root.setProperty('--rotate-start',` ${slice.deg}deg`);
 
         button(btnSpin);
@@ -204,27 +218,59 @@ function button(btn) {
 }
 
 function showCategory() {
-    puzzleCategory.textContent = `Kategoria ${puzzle.category}`;
+    puzzleCategory.textContent = `Kategoria: ${puzzle.category}`;
 }
 
 function solve() {
+    let answer = prompt("Wprowadz odpowiedz: ");
+    answer.toLowerCase() == puzzle.solution ? showWinner() : alert("Nie udało ci się zgadnąć hasła");
+}
 
+function showWinner() {
+    alert("Zgadłeś hasło!!");
+    showPuzzleSolution();
+    setTimeout(() => {
+        window.location.reload();
+    },3000);
+}
+
+function showPuzzleSolution() {
+    for(let i = 0; i < chars.length; i++) {
+        if(chars[i] == " ") {
+            continue;
+        } else {
+            letters[i].textContent = chars[i];
+        }
+    }
 }
 
 function buyVowel() {
-    cashBalance -= 100;
-    cashContainer.textContent = `Pieniądze: ${cashBalance}$`;
+    if(cashBalance >= 100) {
+        let vowel;
+        cashBalance -= 100;
+        cashContainer.textContent = `Pieniądze: ${cashBalance}$`;
+
+        while(true) {
+            vowel = prompt("Wprowadz samogłoskę: ");
+            if(/[aeiouyąę]{1}/.test(vowel)) {
+                break;
+            }
+        }
+        updateBoard(vowel);   
+    } else {
+        alert("Masz za mało pieniędzy");
+    }
 }
 
-function updateBoard() {
-    let letter = prompt("Wprowadz litere: ");
+function updateBoard(letter) {
     let regex = new RegExp(`${letter}`,'gi');
     let matches = [...puzzle.solution.matchAll(regex)];
-    console.log(matches);
 
     if(matches.length == 0) {
         alert("Nie ma takiej litery w słowie");
+        isFound = false;
     } else {
+        isFound = true;
         matches.forEach(match => {
             letters[match.index].textContent = chars[match.index];
         });
