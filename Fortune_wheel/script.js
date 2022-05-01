@@ -21,10 +21,55 @@ const wheel = document.querySelector(".wheel_animation");
 const picker = document.querySelector(".arrow");
 
 //Tablica zagadek
-const puzzles = ["SKIBA","EKONOMIK","CSS","MC CICHY","BAZA DANYCH"]
+const puzzles = [
+    {
+        "solution": "wiking",
+        "category": "Tytuł filmu"
+    },
+    {
+        "solution": "morbius",
+        "category": "Tytuł filmu"
+    },
+    {
+        "solution": "batman",
+        "category": "Tytuł filmu"
+    },
+    {
+        "solution": "maciej cichoń",
+        "category": "Osoba"
+    },
+    {
+        "solution": "johny deep",
+        "category": "Osoba"
+    },
+    {
+        "solution": "diamonds",
+        "category": "Tytuł piosenki"
+    },
+    {
+        "solution": "the lazy song",
+        "category": "Tytuł piosenki"
+    },
+    {
+        "solution": "laugh now cry later",
+        "category": "Tytuł piosenki"
+    },
+    {
+        "solution": "krzyżacy",
+        "category": "Tytuł książki"
+    },
+    {
+        "solution": "jądro ciemności",
+        "category": "Tytuł książki"
+    },
+    {
+        "solution": "ludzie bezdomni",
+        "category": "Tytuł książki"
+    }
+];
 
 let puzzle = drawPuzzle();
-let chars = puzzle.split('');
+let chars = puzzle.solution.split('');
 
 const slices = [
     {
@@ -94,7 +139,7 @@ const slices = [
 ];
 
 function drawSlice() {
-    return slices[Math.floor(Math.random() * 16)]
+    return slices[Math.floor(Math.random() * slices.length)]
 }
 
 function drawPuzzle() {
@@ -115,8 +160,7 @@ function createPuzzle() {
         }
     }
 
-    // showCategory();
-
+    showCategory();
 }
 
 function spin() {
@@ -160,7 +204,7 @@ function button(btn) {
 }
 
 function showCategory() {
-    puzzleCategory.textContent = `Kategoria ${category}`;
+    puzzleCategory.textContent = `Kategoria ${puzzle.category}`;
 }
 
 function solve() {
@@ -168,25 +212,22 @@ function solve() {
 }
 
 function buyVowel() {
-
+    cashBalance -= 100;
+    cashContainer.textContent = `Pieniądze: ${cashBalance}$`;
 }
 
-function updateBoard(letter) {
-    letter = 'C';
-    let position = chars.indexOf(letter);
-    let results = [];
+function updateBoard() {
+    let letter = prompt("Wprowadz litere: ");
+    let regex = new RegExp(`${letter}`,'gi');
+    let matches = [...puzzle.solution.matchAll(regex)];
+    console.log(matches);
 
-    if(position == -1) {
+    if(matches.length == 0) {
         alert("Nie ma takiej litery w słowie");
     } else {
-        while (position != -1) {
-            results.push(position);
-            position = chars.indexOf(letter, position + 1);
-        }
-
-        for(let i = 0; i < results.length; i++) {
-            letters[results[i]].textContent = chars[results[i]];
-        }
+        matches.forEach(match => {
+            letters[match.index].textContent = chars[match.index];
+        });
     }
 }
 
@@ -199,10 +240,6 @@ function resetAnimation() {
         picker.classList.add("pointer");
         wheel.classList.add("spin");
     },1)
-}
-
-function chooseLetter() {
-
 }
 
 function buttons() {
