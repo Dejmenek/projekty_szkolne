@@ -91,6 +91,29 @@
                                         }
 
                                         echo "<p class='result'>{$translated_text}</p>";
+                                        echo '<script>
+                                                    let text = document.querySelector(".result").textContent;
+                                                    let textArray = text.split("");
+                                                    let audioArray = [];
+                                                    let i = 1;
+
+                                                    for(let letter of textArray) {
+                                                        if (letter == ".") {
+                                                            audioArray.push(new Audio("./sounds/audio_blow.mp3"));
+                                                        }
+                                                        
+                                                        if (letter == "-") {
+                                                            audioArray.push(new Audio("./sounds/audio_ping.mp3"));
+                                                        }
+                                                    }
+
+                                                    audioArray.forEach(sound => {
+                                                        setTimeout(() => {
+                                                            sound.play();
+                                                        },600 * i);
+                                                        i++;
+                                                    });
+                                            </script>';
                                     }
 
                                     break;
