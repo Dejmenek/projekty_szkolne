@@ -1,0 +1,164 @@
+/* https://piccalil.li/blog/a-modern-css-reset */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Bree Serif', serif;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.flex-center-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header,
+.footer {
+  height: 10vh;
+}
+
+.footer {
+  background-color: #657153;
+}
+
+
+.header {
+  background-color: #8AAA79;
+}
+
+.main {
+  background-color: #837569;
+}
+
+.main {
+  height: 80vh;
+}
+
+
+.keyboard {
+  width: 40%;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #D1D5DE;
+  transition: all 300ms ease;
+  text-transform: uppercase;
+}
+
+.key:hover {
+  background-color: #D1D5DE;
+}
+
+.password {
+  display: flex;
+  gap: 10px;
+}
+
+.space,
+.letter {
+  width: 50px;
+  height: 50px;
+}
+
+#space {
+  border: none;
+}
+
+.letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: white;
+  border-bottom: 5px solid white;
+}
+
+.part {
+  visibility: hidden;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+}
+
+.animate-part {
+  visibility: visible;
+  animation-name: dash;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
