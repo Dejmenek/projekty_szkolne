@@ -1,0 +1,10 @@
+@use '../abstracts' as *;
+
+@each $size-name, $size-value in $sizes {
+    .margin-#{$size-name} {
+        margin: $size-value;
+    }
+    .padding-#{$size-name} {
+        padding: $size-value;
+    }
+}
