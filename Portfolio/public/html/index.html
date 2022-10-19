@@ -5,119 +5,178 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
+    <script src="../js/script.js" defer></script>
     <title>Portfolio</title>
 </head>
 <body>
     <header>
         <div class="container">
             <div class="flex-nav">
-                <img class="header__logo" src="" alt="">
-                <nav class="header__nav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="80" fill="none" viewBox="0 0 110 86">
+                    <g class="logo">
+                        <path stroke="#3FD9E4" stroke-width="10" d="M0 6h50" class="part"/>
+                        <path stroke="#3FD9E4" stroke-width="10" d="M5 6v80" class="part"/>
+                        <path stroke="#3FD9E4" stroke-width="10" d="M2 81h50" class="part"/>
+                        <path stroke="#3FD9E4" stroke-width="8" d="M74 4 42.5 27 74 50.5l-31.5 30" class="part"/>
+                        <path stroke="#3FD9E4" stroke-width="10" d="M71 6c37.135 2.243 52.855 59.302 0 75" class="part"/>
+                    </g>
+                </svg>
+                <nav class="nav">
                     <ul role="list" class="nav__list">
                         <li class="nav__item">
-                            <a href="">
+                            <a class="nav__link" href="#about">
                                 O mnie
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="">
+                            <a class="nav__link" href="#skills">
                                 Umiejętności
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="">
+                            <a class="nav__link" href="#projects">
                                 Projekty
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="">
+                            <a class="nav__link" href="#contact">
                                 Kontakt
                             </a>
                         </li>
                     </ul>
                 </nav>
+                <div class="hamburger">
+                    <span class="hamburger__bar hamburger__bar--one"></span>
+                    <span class="hamburger__bar hamburger__bar--two"></span>
+                    <span class="hamburger__bar hamburger__bar--three"></span>
+                </div>
             </div>
-            <section class="hero flex-hero">
-                <div class="hero__img">
-                    <img src="" alt="">
+            <section class="hero">
+                <div class="hero__img-container">
+                    <img class="hero__img" src="../img/profilowe.png" alt="kiedys tu bedzie moje zdjecie">
                 </div>
                 <div class="hero__content">
-                    <h1 class="hero__heading"></h1>
-                    <p class="hero__description"></p>
+                    <h1 class="hero__heading">Cześć! Nazywam się <span class="accent">Damian Sempski</span></h1>
+                    <p class="hero__description">Zajmuję się tworzeniem stron internetowych i aplikacji webowych. Moim celem jest zostać Junior Full-Stack Developerem.</p>
                 </div>
             </section>
         </div>
     </header>
     <main>
         <div class="container">
-            <section class="skills">
+            <section class="about" id="about">
+                <h3 class="about__heading">O mnie</h3>
+                <p class="about__description"></p>
+            </section>
+            <section class="skills" id="skills">
                 <h3 class="skills__heading">Umiejętności</h3>
                 <p class="skills__description">Umiejętności, narzędzia i technologie, z których korzystam przy tworzeniu projektów</p>
-                <div class="skills__container">
-                    <div class="skill__item">
-                        <img class="skill__logo" src="" alt="">
-                        <p class="skill_title"></p>
+                <div class="skills__container skills__grid">
+                    <div class="skills__item">
+                        <img class="skill__logo" src="../img/html.svg">
+                        <p class="skill_title">HTML5</p>
                     </div>
-                    <div class="skill__item">
-                        <img class="skill__logo" src="" alt="">
-                        <p class="skill_title"></p>
+                    <div class="skills__item">
+                        <img class="skills__logo" src="../img/css.svg">
+                        <p class="skills_title">CSS3</p>
                     </div>
-                    <div class="skill__item">
-                        <img class="skill__logo" src="" alt="">
-                        <p class="skill_title"></p>
+                    <div class="skills__item">
+                        <img class="skills__logo" src="../img/js.svg">
+                        <p class="skills_title">JS</p>
                     </div>
-                    <div class="skill__item">
-                        <img class="skill__logo" src="" alt="">
-                        <p class="skill_title"></p>
+                    <div class="skills__item">
+                        <img class="skills__logo" src="../img/php.svg">
+                        <p class="skills_title">PHP</p>
                     </div>
-                    <div class="skill__item">
-                        <img class="skill__logo" src="" alt="">
-                        <p class="skill_title"></p>
+                    <div class="skills__item">
+                        <img class="skills__logo" src="../img/python.svg">
+                        <p class="skills_title">Python</p>
                     </div>
-                    <div class="skill__item">
-                        <img class="skill__logo" src="" alt="">
-                        <p class="skill_title"></p>
+                    <div class="skills__item">
+                        <img class="skills__logo" src="../img/sass.svg">
+                        <p class="skills_title">Sass</p>
                     </div>
-                    <div class="skill__item">
-                        <img class="skill__logo" src="" alt="">
-                        <p class="skill_title"></p>
+                    <div class="skills__item">
+                        <img class="skills__logo" src="../img/figma.svg">
+                        <p class="skills_title">Figma</p>
                     </div>
-                    <div class="skill__item">
-                        <img class="skill__logo" src="" alt="">
-                        <p class="skill_title"></p>
+                    <div class="skills__item">
+                        <img class="skills__logo" src="../img/vs.svg">
+                        <p class="skills_title">VS Code</p>
                     </div>
-                    <div class="skill__item">
-                        <img class="skill__logo" src="" alt="">
-                        <p class="skill_title"></p>
+                    <div class="skills__item">
+                        <img class="skills__logo" src="../img/github.svg">
+                        <p class="skills_title">Github</p>
                     </div>
-                    <div class="skill__item">
-                        <img class="skill__logo" src="" alt="">
-                        <p class="skill_title"></p>
+                    <div class="skills__item">
+                        <img class="skills__logo" src="../img/git.svg">
+                        <p class="skills_title">Git</p>
                     </div>
                 </div>
             </section>
-            <section class="projects">
+            <section class="projects" id="projects">
                 <h3 class="projects__heading">Projekty</h3>
                 <div class="projects__container">
                     <div class="project">
-                        <img src="" alt="" class="project__img">
-                        <h4 class="project__title"></h4>
-                        <p class="project__description"></p>
+                        <img src="../img/hangman.png" alt="Wisielec" class="project__img">
+                        <div class="project__content">
+                            <h4 class="project__title">Wisielec</h4>
+                            <p class="project__description">Prosta gra, polegająca na odgadywaniu słów. Projekt miał na celu przećwiczenie obsługi zdarzeń, tworzenia plików graficznych SVG, łączenia się z bazą danych i wykonywania do niej zapytań.</p>
+                            <ul role="list" class="project__stack">
+                                <li class="project__tech">HTML5</li>
+                                <li class="project__tech">CSS3</li>
+                                <li class="project__tech">JavaScript</li>
+                                <li class="project__tech">PHP</li>
+                            </ul>
+                            <a class="project__link" href="https://github.com/Dejmenek/projekty_szkolne/tree/master/Hangman" target="_blank">
+                                <img src="../img/link_alt.svg" alt="">
+                            </a>
+                        </div>
                     </div>
                     <div class="project">
-                        <img src="" alt="" class="project__img">
-                        <h4 class="project__title"></h4>
-                        <p class="project__description"></p>
+                        <div class="project__content">
+                            <h4 class="project__title">Tłumacz Kodu Morse'a</h4>
+                            <p class="project__description">Tłumacz pozwala na konwertowanie zwykłego tekstu na Kod Morse'a i odwrotnie. Projekt miał na celu przećwiczenie funkcji na ciągach znaków w PHP, korzystania z zapytania mediów oraz wykorzystania obiektu Audio w JavaScript do odtworzenia przetłumaczonego tekstu na Kod Morse'a.</p>
+                            <ul role="list" class="project__stack">
+                                <li class="project__tech">HTML5</li>
+                                <li class="project__tech">CSS3</li>
+                                <li class="project__tech">JavaScript</li>
+                                <li class="project__tech">PHP</li>
+                            </ul>
+                            <a class="project__link" href="https://github.com/Dejmenek/projekty_szkolne/tree/master/Morse_code_translator" target="_blank">
+                                <img src="../img/link_alt.svg" alt="">
+                            </a>
+                        </div>
+                        <img src="../img/mors.png" alt="Translator morsa" class="project__img">
                     </div>
                     <div class="project">
-                        <img src="" alt="" class="project__img">
-                        <h4 class="project__title"></h4>
-                        <p class="project__description"></p>
+                        <img src="../img/kolo.png" class="project__img">
+                        <div class="project__content">
+                            <h4 class="project__title">Koło Fortuny</h4>
+                            <p class="project__description">Gra polega na odgadnięciu hasła, na podstawie kolejno odkrywanych liter. Za każdym razem, kiedy gracz ma odgadnąć kolejną literę, wcześniej kręci kołem fortuny, na którym znajdują się przeróżne kwoty, ale także i kary. Projekt miał na celu przećwiczenie korzystania z asynchronicznej funkcji setTimeout oraz składni JavaScripta, która została dodana w wersji ES6.</p>
+                            <ul role="list" class="project__stack">
+                                <li class="project__tech">HTML5</li>
+                                <li class="project__tech">CSS3</li>
+                                <li class="project__tech">JavaScript</li>
+                            </ul>
+                            <a class="project__link" href="https://github.com/Dejmenek/projekty_szkolne/tree/master/Fortune_wheel" target="_blank">
+                                <img src="../img/link_alt.svg">
+                            </a>
+                        </div>
                     </div>
                     <div class="project">
-                        <img src="" alt="" class="project__img">
-                        <h4 class="project__title"></h4>
-                        <p class="project__description"></p>
+                        <div class="project__content">
+                            <h4 class="project__title">Blackjack</h4>
+                            <p class="project__description">Kasynowa gra karciana, w której gracz stara się pokonać krupiera poprzez uzyskanie sumy jak najbliższej 21 punktów w kartach jednak nie przekraczając 21. Projekt miał na celu przećwiczenie manipulowania DOM, tworzenia animacji w CSS oraz przedstawienia logiki gry w kodzie.</p>
+                            <ul role="list" class="project__stack">
+                                <li class="project__tech">HTML5</li>
+                                <li class="project__tech">CSS3</li>
+                                <li class="project__tech">JavaScript</li>
+                            </ul>
+                            <a class="project__link" href="https://github.com/Dejmenek/projekty_szkolne/tree/master/Blackjack" target="_blank"><img src="../img/link_alt.svg"></a>                            
+                        </div>
+                        <img src="../img/blackjack.png" alt="blackjack" class="project__img">
                     </div>
                 </div>
             </section>
@@ -125,20 +184,27 @@
     </main>
     <footer>
         <div class="container">
-            <form class="contact-form" action="">
-                <div class="form-left">
-                    <label for="user-name">Imię</label>
-                    <input type="text" name="user-name" id="user-name">
-                    <label for="mail">E-mail</label>
-                    <input type="email" name="mail" id="mail">
-                    <label for="subject">Temat</label>
-                    <input type="text" name="subject" id="subject">
+            <div class="contact__wrapper">
+                <div class="contact__form-wrapper">
+                    <form class="contact__form" action="" id="contact">
+                        <input class="contact__input contact__name" type="text" name="user-name" id="user-name" placeholder="Imię"><br>
+                        <input class="contact__input contact__email" type="email" name="mail" id="mail" placeholder="E-mail"><br>
+                        <input class="contact__input contact__subject" type="text" name="subject" id="subject" placeholder="Temat">
+                        <textarea class="contact__msg" name="" id="" cols="30" rows="10"></textarea>
+                        <input class="contact__btn" type="button" value="Wyślij">
+                    </form>
                 </div>
-                <div class="form-right">
-                    <input type="text" name="message" id="msg">
+                <div class="contact__info">
+                    <p class="contact__media">Znajdziesz mnie również na</p>
+                    <div class="contact__icons">
+                        <a class="contact__icon" href="https://codepen.io/dejmenek" target="_blank"><img src="../img/codepen.svg"></a>
+                        <a class="contact__icon" href="https://github.com/Dejmenek" target="_blank"><img src="../img/github.svg"></a>
+                        <a class="contact__icon" href="https://www.linkedin.com/in/damian-sempski-48708a254/" target="_blank"><img src="../img/linked.svg"></a>
+                    </div>
+                    <p id="copyright"></p>
                 </div>
-            </form>
+            </div>
         </div>
-    </footer>
+        </footer>
 </body>
 </html>

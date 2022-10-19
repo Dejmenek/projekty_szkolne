@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="86" fill="none" viewBox="0 0 110 86">
+  <g class="logo">
+    <path stroke="#3FD9E4" stroke-width="10" d="M5 6v80" class="Vector 10"/>
+    <path stroke="#3FD9E4" stroke-width="10" d="M0 6h50" class="Vector 11"/>
+    <path stroke="#3FD9E4" stroke-width="10" d="M2 81h50" class="Vector 12"/>
+    <path stroke="#3FD9E4" stroke-width="10" d="M71 6c37.135 2.243 52.855 59.302 0 75" class="Vector 13"/>
+    <path stroke="#3FD9E4" stroke-width="8" d="M74 4 42.5 27 74 50.5l-31.5 30" class="Vector 14"/>
+  </g>
+</svg>
