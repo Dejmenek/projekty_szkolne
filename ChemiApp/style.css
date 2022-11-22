@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+p {
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.flex-center-y {
+  display: flex;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flex-center-x {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  gap: 4px;
+  grid-template-columns: 1rem repeat(18, 3rem);
+  grid-template-rows: auto repeat(10, 3.5rem);
+}
+
+.grid-two-columns {
+  display: grid;
+  gap: 2rem;
+}
+
+.grid-section {
+  display: grid;
+  gap: 2rem;
+}
+
+.grid-center-element {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+
+.nonmetals {
+  background-color: #24c1f0;
+}
+
+.gap-2 {
+  gap: 1rem;
+}
+
+.element-name {
+  display: none;
+}
+
+.enlarged-element-name,
+.element-name {
+  font-weight: 600;
+  font-size: 15px;
+  font-variant: small-caps;
+}
+
+.enlarged-element-name {
+  font-size: 16px;
+}
+
+.chemical-symbol,
+.enlarged-chemical-symbol {
+  font-weight: 600;
+}
+
+.elektron {
+  animation: rotate 10s infinite linear;
+  transform-origin: center center;
+  transform-box: stroke-box;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.back {
+  display: flex;
+  gap: .25rem;
+}
+
+.alkali-metals {
+  background-color: #92d3cb;
+}
+
+.alkaline-earths {
+  background-color: #bde5f9;
+}
+
+.transition-metals {
+  background-color: #ffffff;
+}
+
+.properties-link {
+  padding: .5rem 1rem;
+  background-color: #fab52d;
+}
+
+.poor-metals {
+  background-color: #99c942;
+}
+
+.halogens {
+  background-color: #f37621;
+}
+
+.metalloids {
+  background-color: #fcdae7;
+}
+
+.noble-gases {
+  background-color: #fbda06;
+}
+
+.lanthanides {
+  background-color: #fff4a7;
+}
+
+.actinides {
+  background-color: #fab52d;
+}
+
+.unknown {
+  background-color: grey;
+}
+
+.logo__text {
+  font-size: 24px;
+}
+
+.meanings {
+  margin-left: 1rem;
+  grid-column: 10 / span 4;
+  grid-row: 1 / span 3;
+  color: white;
+}
+
+.meaning__text {
+  font-size: 8px;
+}
+
+.color {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+header,
+footer {
+  padding: 1rem 0;
+  background-color: #fab52d;
+}
+
+header {
+  box-shadow: 0px 100px 50px -11px rgba(0, 178, 169, 1);
+}
+
+.element {
+  position: relative;
+  padding: .2rem;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.element-symbol {
+  font-size: 22px;
+}
+
+.enlarged-chemical-symbol {
+  font-size: 24px;
+}
+
+.element-number {
+  font-size: 10px;
+}
+
+.enlarged-element-number {
+  font-size: 12px;
+}
+
+.element-weight {
+  font-size: 10px;
+}
+
+.enlarged-element-weight {
+  font-size: 14px;
+}
+
+.element:hover {
+  transform: scale(1.2);
+  z-index: 999;
+  box-shadow: 0px 0px 13px 4px rgba(120, 120, 136, 0.5);
+}
+
+.show-element-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  grid-row: 1 / 4;
+  align-self: end;
+  padding: 2rem 0;
+  grid-column: 5 / span 5;
+  background-color: white;
+}
+
+.element-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+
+.enlarged-period,
+.enlarged-group {
+  position: absolute;
+}
+
+.enlarged-period {
+  left: -20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.enlarged-group {
+  left: 50%;
+  top: -30%;
+  transform: translateX(-50%);
+}
+
+.enlarged-period--black,
+.enlarged-group--black {
+  color: black;
+}
+
+.element-container--white {
+  border-color: white;
+}
+
+.liquid {
+  background-image: url('./img/ciecz.png');
+  background-size: 12px 12px;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+
+.gas {
+  background-image: url('./img/gaz.png');
+  background-size: 12px 12px;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+
+.meaning {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: .5rem;
+}
+
+.group--lanthanide {
+  display: grid;
+  place-items: center;
+  color: white;
+  grid-row: 10;
+}
+
+.group--actinide {
+  display: grid;
+  place-items: center;
+  color: white;
+  grid-row: 11;
+}
+
+main {
+  padding: 4rem 0;
+  background-color: #173a4e;
+}
+
+.list__item {
+  margin-top: 1rem;
+}
+
+.arrow {
+  animation: point 500ms infinite linear alternate;
+}
+
+@keyframes point {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-10px);
+  }
+}
+
+.period-container {
+  grid-row: 2 / 9;
+  display: grid;
+  color: white;
+
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(7, 1fr);
+}
+
+.period {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.group {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+}
+
+.group--one {
+  grid-column: 2;
+}
+
+.group--two,
+.group--thirteen,
+.group--fourteen,
+.group--fifteen,
+.group--sixteen,
+.group--seventeen {
+  grid-row: 2;
+}
+
+.group--thirteen {
+  grid-column: 14;
+}
+
+.group--fourteen {
+  grid-column: 15;
+}
+
+.group--fifteen {
+  grid-column: 16;
+}
+
+.group--sixteen {
+  grid-column: 17;
+}
+
+.group--seventeen {
+  grid-column: 18;
+}
+
+.group--eighteen {
+  grid-column: 19;
+}
+
+.group--three ,
+.group--four,
+.group--five,
+.group--six,
+.group--seven,
+.group--eight,
+.group--nine,
+.group--ten,
+.group--eleven,
+.group--twelve{
+  grid-row: 4;
+}
+
+.more-informations {
+  grid-column: span 2;
+  margin-top: 1rem;
+  justify-self: auto;
+}
+
+.heading {
+  display: inline-block;
+  border-bottom: 2px solid #fab52d;
+  margin-bottom: 1rem;
+}
+
+.characteristic,
+.atom-build,
+.physic-properties,
+.chemical-properties,
+.uses {
+  color: white;
+}
+
+.list {
+  max-width: 30ch;
+}
+
+object {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .list {
+    max-width: 50ch;
+  }
+
+  .grid-two-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (min-width: 1450px) {
+  .grid {
+    grid-template-columns: 1rem repeat(18, 4.5rem);
+    grid-template-rows: auto repeat(10, 4.95rem);
+  }
+
+  .show-element-container {
+    align-self: center;
+  }
+
+  .group--actinide {
+    grid-column: 2 / span 2;
+  }
+
+  .group--lanthanide {
+    grid-column: 2 / span 2;
+  }
+
+  .meaning__text {
+    font-size: 14px;
+  }
+
+  .gas,
+  .liquid {
+    background-size: 16px 16px;
+  }
+
+  .element-name {
+    display: block;
+  }
+}

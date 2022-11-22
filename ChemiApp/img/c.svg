@@ -1,0 +1,44 @@
+<?xml-stylesheet type="text/css" href="../style.css"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="165" height="165" fill="none" viewBox="0 0 165 165">
+  <g class="c">
+    <circle cx="82.5" cy="83.342" r="65.163" fill="#D9D9D9" fill-opacity=".1" stroke="#000" class="powloka"/>
+    <circle cx="82.5" cy="82.5" r="82" fill="#D9D9D9" fill-opacity=".1" stroke="#000" class="powloka"/>
+    <circle cx="82.921" cy="82.921" r="5.722" fill="url(#a)" stroke="#000" stroke-width=".5" class="Ellipse 2"/>
+    <circle cx="18.099" cy="82.921" r="6.064" fill="url(#b)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="147.742" cy="82.921" r="6.064" fill="url(#c)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="28.201" cy="18.099" r="6.064" fill="url(#d)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="129.222" cy="13.048" r="6.064" fill="url(#e)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="28.201" cy="146.059" r="6.064" fill="url(#f)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="126.696" cy="151.951" r="6.064" fill="url(#g)" stroke="#000" stroke-width=".5" class="elektron"/>
+  </g>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" class="a" gradientTransform="rotate(90 0 82.92) scale(5.47194)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F80A0A"/>
+      <stop offset="1" stop-color="#690404"/>
+    </radialGradient>
+    <radialGradient id="b" cx="0" cy="0" r="1" class="b" gradientTransform="rotate(90 -32.41 50.51) scale(6.31378)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="c" cx="0" cy="0" r="1" class="c" gradientTransform="rotate(90 32.41 115.332) scale(6.31378)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="d" cx="0" cy="0" r="1" class="d" gradientTransform="rotate(90 5.051 23.15) scale(6.31378)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="e" cx="0" cy="0" r="1" class="e" gradientTransform="rotate(90 58.087 71.135) scale(6.31378)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="f" cx="0" cy="0" r="1" class="f" gradientTransform="rotate(90 -58.929 87.13) scale(6.31378)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="g" cx="0" cy="0" r="1" class="g" gradientTransform="rotate(90 -12.628 139.323) scale(6.31378)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+  </defs>
+</svg>

@@ -1,0 +1,80 @@
+<?xml-stylesheet type="text/css" href="../style.css"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="165" height="166" fill="none" viewBox="0 0 165 166">
+  <g class="al">
+    <circle cx="82.5" cy="82.5" r="54.034" fill="#D9D9D9" fill-opacity=".1" stroke="#000" class="powloka"/>
+    <circle cx="83.199" cy="82.5" r="68.017" fill="#D9D9D9" fill-opacity=".1" stroke="#000" class="powloka"/>
+    <circle cx="82.5" cy="82.5" r="82" fill="#D9D9D9" fill-opacity=".1" stroke="#000" class="powloka"/>
+    <circle cx="82.85" cy="81.451" r="4.794" fill="url(#a)" stroke="#000" stroke-width=".5" class="Ellipse 2"/>
+    <circle cx="42.998" cy="26.918" r="4.994" fill="url(#b)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="15.998" cy="84.918" r="4.994" fill="url(#c)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="122.998" cy="26.918" r="4.994" fill="url(#d)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="64.998" cy="30.918" r="4.994" fill="url(#e)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="8.998" cy="117.917" r="4.994" fill="url(#f)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="57.998" cy="159.917" r="4.994" fill="url(#g)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="106.998" cy="159.917" r="4.994" fill="url(#h)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="124.998" cy="117.917" r="4.994" fill="url(#i)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="83.998" cy="12.918" r="4.994" fill="url(#j)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="83.998" cy="148.917" r="4.994" fill="url(#k)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="42.998" cy="138.917" r="4.994" fill="url(#l)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="122.998" cy="135.917" r="4.994" fill="url(#m)" stroke="#000" stroke-width=".5" class="elektron"/>
+    <circle cx="150.998" cy="81.918" r="4.994" fill="url(#n)" stroke="#000" stroke-width=".5" class="elektron"/>
+  </g>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" class="a" gradientTransform="rotate(90 .7 82.15) scale(4.54449)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F80A0A"/>
+      <stop offset="1" stop-color="#690404"/>
+    </radialGradient>
+    <radialGradient id="b" cx="0" cy="0" r="1" class="b" gradientTransform="rotate(90 8.04 34.958) scale(5.24364)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="c" cx="0" cy="0" r="1" class="c" gradientTransform="rotate(90 -34.46 50.458) scale(5.24364)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="d" cx="0" cy="0" r="1" class="d" gradientTransform="rotate(90 48.04 74.958) scale(5.24364)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="e" cx="0" cy="0" r="1" class="e" gradientTransform="rotate(90 17.04 47.958) scale(5.24364)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="f" cx="0" cy="0" r="1" class="f" gradientTransform="rotate(90 -54.46 63.457) scale(5.24364)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="g" cx="0" cy="0" r="1" class="g" gradientTransform="rotate(90 -50.96 108.957) scale(5.24364)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="h" cx="0" cy="0" r="1" class="h" gradientTransform="rotate(90 -26.46 133.458) scale(5.24364)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="i" cx="0" cy="0" r="1" class="i" gradientTransform="rotate(90 3.54 121.458) scale(5.24364)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="j" cx="0" cy="0" r="1" class="j" gradientTransform="rotate(90 35.54 48.458) scale(5.24364)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="k" cx="0" cy="0" r="1" class="k" gradientTransform="rotate(90 -32.46 116.457) scale(5.24364)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="l" cx="0" cy="0" r="1" class="l" gradientTransform="rotate(90 -47.96 90.957) scale(5.24364)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="m" cx="0" cy="0" r="1" class="m" gradientTransform="rotate(90 -6.46 129.458) scale(5.24364)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="n" cx="0" cy="0" r="1" class="n" gradientTransform="rotate(90 34.54 116.458) scale(5.24364)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+  </defs>
+</svg>

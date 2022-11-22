@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/icon.svg"/>
+    <script src="element.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a class="back" href="./index.html"><img class="arrow" src="./img/Arrow_alt_left.svg" alt=""> Wróć do układu okresowego pierwiastków</a>
+        </div>
+    </header>
+    <main>
+        <div class="container grid-section" style="min-height: 100vh;">
+            <section class="characteristic">
+                <h3 class="characteristic__heading heading">Charakterystyka</h3>
+                <div class="content grid-two-columns">
+                    <div class="element-informations">
+                        <p class="show-element-name"></p>
+                        <p class="show-element-number"></p>
+                        <p class="show-element-weight"></p>
+                        <p class="show-element-valence"></p>
+                        <p class="show-element-period"></p>
+                        <p class="show-element-group"></p>
+                    </div>
+                    <div class="element-container element-container--white grid-center-element">
+                        <span class="enlarged-period"></span>
+                        <p class="enlarged-element-number"></p>
+                        <p class="enlarged-chemical-symbol"></p>
+                        <p class="enlarged-element-name"></p>
+                        <p class="enlarged-element-weight"></p>
+                        <span class="enlarged-group"></span>
+                    </div>
+                </div>
+            </section>
+            <section class="atom-build">
+                <h3 class="atom-build__heading heading">Budowa atomu</h3>
+                <div class="content grid-two-columns">
+                    <object class="atom-structure" data="" type="image/svg+xml"></object>
+                    <div class="content__text">
+                        <p class="protons"></p>
+                        <p class="neutrons"></p>
+                        <p class="electrons"></p>
+                        <p class="electron-setup"></p>
+                        <p class="electron-configuration"></p>
+                        <p class="electron-configuration-semantic"></p>
+                        <p class="electronegativity-pauling"></p>
+                    </div>
+                </div>
+            </section>
+            <div class="grid-two-columns">
+                <section class="physic-properties">
+                    <h3 class="physic__heading heading"></h3>
+                    <ul class="physic-properties-list list">
+                    </ul>
+                </section>
+                <section class="chemical-properties">
+                    <h3 class="chemical__heading heading"></h3>
+                    <ul class="chemical-properties-list list">
+                    </ul>
+                </section>
+                <section class="uses">
+                    <h3 class="uses__heading heading"></h3>
+                    <ul class="uses-list list">
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container flex-center-x gap-2">
+            <p>Stronę wykonał: Damian Sempski</p>
+            <div class="footer__icons">
+                <a href="https://github.com/Dejmenek">
+                    <img src="./img/github.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

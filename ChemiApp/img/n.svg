@@ -1,0 +1,49 @@
+<?xml-stylesheet type="text/css" href="../style.css"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="165" height="165" fill="none" viewBox="0 0 165 165">
+  <g class="n">
+    <path fill="#D9D9D9" fill-opacity=".1" stroke="#000" d="M141.605 86.158c0 34.752-27.359 62.899-61.079 62.899-33.719 0-61.079-28.147-61.079-62.9 0-34.751 27.36-62.898 61.08-62.898 33.719 0 61.078 28.147 61.078 62.899Z" class="powloka"/>
+    <path fill="#D9D9D9" fill-opacity=".1" stroke="#000" d="M158.974 85.345c0 43.73-34.429 79.155-76.869 79.155S5.237 129.075 5.237 85.345c0-43.73 34.429-79.155 76.868-79.155 42.44 0 76.869 35.425 76.869 79.155Z" class="powloka"/>
+    <path fill="url(#a)" stroke="#000" stroke-width=".5" d="M80.921 91.284c2.98 0 5.382-2.484 5.382-5.533 0-3.049-2.403-5.533-5.382-5.533-2.979 0-5.381 2.484-5.381 5.533 0 3.05 2.402 5.533 5.381 5.533Z" class="Ellipse 2"/>
+    <path fill="url(#b)" stroke="#000" stroke-width=".5" d="M137.119 52.426c0 3.236-2.546 5.846-5.671 5.846-3.126 0-5.672-2.61-5.672-5.846s2.546-5.846 5.672-5.846c3.125 0 5.671 2.61 5.671 5.846Z" class="elektron"/>
+    <path fill="url(#c)" stroke="#000" stroke-width=".5" d="M11.592 84.938c0 3.236-2.546 5.846-5.671 5.846-3.125 0-5.671-2.61-5.671-5.846 0-3.235 2.546-5.846 5.671-5.846 3.125 0 5.671 2.61 5.671 5.846Z" class="elektron"/>
+    <path fill="url(#d)" stroke="#000" stroke-width=".5" d="M164.75 84.938c0 3.236-2.546 5.846-5.671 5.846-3.125 0-5.671-2.61-5.671-5.846 0-3.235 2.546-5.846 5.671-5.846 3.125 0 5.671 2.61 5.671 5.846Z" class="elektron"/>
+    <path fill="url(#e)" stroke="#000" stroke-width=".5" d="M86.592 6.096c0 3.236-2.546 5.846-5.67 5.846-3.126 0-5.672-2.61-5.672-5.846S77.796.25 80.921.25c3.125 0 5.671 2.61 5.671 5.846Z" class="elektron"/>
+    <path fill="url(#f)" stroke="#000" stroke-width=".5" d="M51.066 154.027c0 3.236-2.546 5.846-5.671 5.846-3.126 0-5.671-2.61-5.671-5.846s2.546-5.846 5.67-5.846c3.126 0 5.672 2.61 5.672 5.846Z" class="elektron"/>
+    <path fill="url(#g)" stroke="#000" stroke-width=".5" d="M126.855 153.214c0 3.236-2.546 5.846-5.671 5.846-3.125 0-5.671-2.61-5.671-5.846 0-3.235 2.546-5.846 5.671-5.846 3.125 0 5.671 2.611 5.671 5.846Z" class="elektron"/>
+    <path fill="url(#h)" stroke="#000" stroke-width=".5" d="M35.276 117.451c0 3.235-2.546 5.846-5.67 5.846-3.126 0-5.672-2.611-5.672-5.846 0-3.236 2.546-5.846 5.671-5.846 3.125 0 5.671 2.61 5.671 5.846Z" class="elektron"/>
+  </g>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" class="a" gradientTransform="scale(5.13158 5.28325) rotate(90 -.23 16)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F80A0A"/>
+      <stop offset="1" stop-color="#690404"/>
+    </radialGradient>
+    <radialGradient id="b" cx="0" cy="0" r="1" class="b" gradientTransform="matrix(0 6.09606 -5.92105 0 131.447 52.426)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="c" cx="0" cy="0" r="1" class="c" gradientTransform="matrix(0 6.09606 -5.92105 0 5.921 84.938)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="d" cx="0" cy="0" r="1" class="d" gradientTransform="matrix(0 6.09606 -5.92105 0 159.079 84.938)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="e" cx="0" cy="0" r="1" class="e" gradientTransform="matrix(0 6.09606 -5.92105 0 80.921 6.096)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="f" cx="0" cy="0" r="1" class="f" gradientTransform="matrix(0 6.09606 -5.92105 0 45.395 154.027)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="g" cx="0" cy="0" r="1" class="g" gradientTransform="matrix(0 6.09606 -5.92105 0 121.184 153.214)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="h" cx="0" cy="0" r="1" class="h" gradientTransform="matrix(0 6.09606 -5.92105 0 29.605 117.451)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+  </defs>
+</svg>

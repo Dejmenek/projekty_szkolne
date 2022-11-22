@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="60" fill="none" viewBox="0 0 62 100">
+  <g class="icon">
+    <path fill="#EAEAEA" stroke="#444A53" stroke-width=".5" d="M27.727 22.642 12.69 28.105l.512 1.41 4.822 14.74-3.975 5.167-2.821 6.876.04 7.433 1.239-.982 3.589-1.836 3.802.215 5.382.173 3.46-.725 1.71-1.153 1.709-1.153 3.846-4.056 3.29-1.195 5.681-.468 5.041-.768 1.838-2.263-1.665-3.119-7.26-5.342-6.706-2.352-2.691-.086-5.805-15.979Z" class="Vector 2"/>
+    <path fill="url(#a)" stroke="#444A53" d="M20.892 61.183c-8.415-1.199-9.1 2.774-9.1 2.774l.883 5.114 5.593 8.076 6.278 4.103 9.056 1.498 5.51-.938 7.648-3.842 4.445-5.338 3.59-7.688-.04-7.433-1.407-5.34-2.135-2.948s1.628 3.017-6.275 3.228c-7.903.21-8.971 1.663-10.04 3.114-1.068 1.453-5.59 6.82-14.006 5.62Z" class="Vector 1"/>
+    <g class="bubbles">
+      <g class="bubble">
+        <circle cx="24.55" cy="69.545" r="2" fill="#AAD6D9" transform="rotate(-19.963 24.55 69.545)"/>
+        <circle cx="24.55" cy="69.545" r="2" fill="#AAD6D9" transform="rotate(-19.963 24.55 69.545)"/>
+      </g>
+      <circle cx="24.73" cy="26.557" r="1" fill="url(#b)" class="bubble" transform="rotate(-19.963 24.73 26.557)"/>
+      <!-- <circle cx="6.501" cy="9.606" r="3.5" fill="url(#c)" class="bubble" transform="rotate(-19.963 6.501 9.606)"/> -->
+      <!-- <circle cx="19.829" cy="11.148" r="2.5" fill="url(#d)" class="bubble" transform="rotate(-19.963 19.829 11.148)"/> -->
+      <circle cx="20.419" cy="33.276" r="1.5" fill="url(#e)" class="bubble" transform="rotate(-19.963 20.419 33.276)"/>
+      <circle cx="28.491" cy="39.388" r="1" fill="url(#f)" class="bubble" transform="rotate(-19.963 28.49 39.388)"/>
+      <circle cx="37.578" cy="71.728" r="1.5" fill="#AAD6D9" class="bubble" transform="rotate(-19.963 37.578 71.728)"/>
+      <circle cx="42.067" cy="62.118" r="3" fill="#AAD6D9" class="bubble" transform="rotate(-19.963 42.067 62.118)"/>
+      <circle cx="30.063" cy="62.755" r="1.5" fill="#AAD6D9" class="bubble" transform="rotate(-19.963 30.063 62.755)"/>
+      <circle cx="25.54" cy="47.375" r="2.5" fill="url(#g)" class="bubble" transform="rotate(-19.963 25.54 47.375)"/>
+    </g>
+    <rect width="24" height="3.997" x="7.223" y="24.774" fill="#EAEAEA" stroke="#444A53" stroke-width="2" class="Rectangle 156" rx="1.998" transform="rotate(-19.963 7.223 24.774)"/>
+    <path stroke="#444A53" d="m15.165 31.993 4.7-1.707" class="Line 3"/>
+    <path stroke="#444A53" d="m17.555 38.572 4.7-1.707" class="Line 4"/>
+    <path stroke="#444A53" stroke-width="2" d="M32.613 38.6a22 22 0 1 1-13.443 4.889" class="Ellipse 1"/>
+    <path fill="#444A53" d="m11.749 28.446 1.88-.683 5.804 15.979a1 1 0 0 1-1.88.683l-5.804-15.979Z" class="Rectangle 157"/>
+    <path fill="#444A53" d="m26.788 22.984 1.88-.683 5.803 15.978a1 1 0 1 1-1.88.683l-5.803-15.978Z" class="Rectangle 158"/>
+  </g>
+  <defs>
+    <linearGradient id="a" x1="31.125" x2="40.053" y1="55.426" y2="81.469" class="a" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24C1F0" stop-opacity=".7"/>
+      <stop offset=".885" stop-color="#086581"/>
+    </linearGradient>
+    <linearGradient id="b" x1="24.73" x2="26.23" y1="25.557" y2="29.057" class="b" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24C1F0"/>
+      <stop offset="1" stop-color="#086581" stop-opacity=".7"/>
+    </linearGradient>
+    <linearGradient id="c" x1="6.501" x2="8.001" y1="8.606" y2="12.606" class="c" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24C1F0"/>
+      <stop offset="1" stop-color="#086581" stop-opacity=".7"/>
+    </linearGradient>
+    <linearGradient id="d" x1="19.829" x2="25.829" y1="10.148" y2="18.148" class="d" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24C1F0"/>
+      <stop offset="1" stop-color="#086581" stop-opacity=".7"/>
+    </linearGradient>
+    <linearGradient id="e" x1="19.419" x2="22.919" y1="34.276" y2="29.776" class="e" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24C1F0"/>
+      <stop offset=".997" stop-color="#086581" stop-opacity=".7"/>
+    </linearGradient>
+    <linearGradient id="f" x1="28.491" x2="30.491" y1="38.388" y2="41.888" class="f" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24C1F0"/>
+      <stop offset="1" stop-color="#086581"/>
+    </linearGradient>
+    <linearGradient id="g" x1="25.54" x2="26.04" y1="44.875" y2="51.375" class="g" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24C1F0" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#086581"/>
+      <stop offset="1" stop-color="#086581"/>
+    </linearGradient>
+  </defs>
+</svg>

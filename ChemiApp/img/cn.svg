@@ -1,0 +1,568 @@
+<?xml-stylesheet type="text/css" href="../style.css"?><svg xmlns="http://www.w3.org/2000/svg" width="165" height="166" fill="none" viewBox="0 0 165 166">
+  <g class="cn">
+    <path fill="#D9D9D9" fill-opacity=".1" stroke="#000" d="M114.5 82.5c0 16.872-14.306 30.587-32 30.587-17.694 0-32-13.715-32-30.587s14.306-30.587 32-30.587c17.694 0 32 13.715 32 30.587Z" class="powloka"/>
+    <path fill="#D9D9D9" fill-opacity=".1" stroke="#000" d="M122.833 82.5c0 21.274-18.036 38.558-40.333 38.558-22.297 0-40.333-17.284-40.333-38.558S60.203 43.942 82.5 43.942c22.297 0 40.333 17.284 40.333 38.558Z" class="powloka"/>
+    <path fill="#D9D9D9" fill-opacity=".1" stroke="#000" d="M131.167 82.5c0 25.676-21.768 46.529-48.667 46.529s-48.666-20.853-48.666-46.53c0-25.676 21.767-46.528 48.666-46.528 26.899 0 48.667 20.852 48.667 46.529Z" class="powloka"/>
+    <path fill="#D9D9D9" fill-opacity=".1" stroke="#000" d="M139.5 82.5c0 30.079-25.499 54.5-57 54.5s-57-24.421-57-54.5S50.999 28 82.5 28s57 24.421 57 54.5Z" class="powloka"/>
+    <path fill="#D9D9D9" fill-opacity=".1" stroke="#000" d="M147.833 82.5c0 34.481-29.229 62.471-65.333 62.471S17.167 116.981 17.167 82.5c0-34.481 29.23-62.471 65.333-62.471 36.104 0 65.333 27.99 65.333 62.47Z" class="powloka"/>
+    <path fill="#D9D9D9" fill-opacity=".1" stroke="#000" d="M156.167 82.5c0 38.883-32.961 70.442-73.667 70.442S8.833 121.383 8.833 82.5c0-38.883 32.96-70.442 73.667-70.442 40.706 0 73.667 31.559 73.667 70.442Z" class="powloka"/>
+    <path fill="#D9D9D9" fill-opacity=".1" stroke="#000" d="M164.5 82.5c0 43.285-36.691 78.413-82 78.413S.5 125.785.5 82.5c0-43.286 36.691-78.413 82-78.413s82 35.127 82 78.413Z" class="powloka"/>
+    <path fill="url(#a)" stroke="#000" stroke-width=".5" d="M82.708 85.141c1.624 0 2.959-1.261 2.959-2.84 0-1.58-1.335-2.84-2.959-2.84-1.623 0-2.958 1.26-2.958 2.84 0 1.579 1.335 2.84 2.958 2.84Z" class="Ellipse 2"/>
+    <path fill="url(#b)" stroke="#000" stroke-width=".5" d="M63.75 49.24c0 1.545-1.282 2.806-2.875 2.806S58 50.785 58 49.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#c)" stroke="#000" stroke-width=".5" d="M44.75 85.24c0 1.545-1.282 2.806-2.875 2.806S39 86.785 39 85.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#d)" stroke="#000" stroke-width=".5" d="M110.75 49.24c0 1.545-1.282 2.806-2.875 2.806S105 50.785 105 49.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#e)" stroke="#000" stroke-width=".5" d="M76.75 51.24c0 1.545-1.282 2.806-2.875 2.806S71 52.785 71 51.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#f)" stroke="#000" stroke-width=".5" d="M43.75 104.241c0 1.544-1.282 2.805-2.875 2.805S38 105.785 38 104.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#g)" stroke="#000" stroke-width=".5" d="M103.75 36.24c0 1.545-1.282 2.806-2.875 2.806S98 37.785 98 36.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#h)" stroke="#000" stroke-width=".5" d="M132.75 64.24c0 1.545-1.282 2.806-2.875 2.806S127 65.785 127 64.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#i)" stroke="#000" stroke-width=".5" d="M137.75 82.24c0 1.545-1.282 2.806-2.875 2.806S132 83.785 132 82.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#j)" stroke="#000" stroke-width=".5" d="M87.75 34.24c0 1.545-1.282 2.806-2.875 2.806S82 35.785 82 34.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#k)" stroke="#000" stroke-width=".5" d="M121.75 48.24c0 1.545-1.282 2.806-2.875 2.806S116 49.785 116 48.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#l)" stroke="#000" stroke-width=".5" d="M70.75 126.241c0 1.544-1.282 2.805-2.875 2.805S65 127.785 65 126.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#m)" stroke="#000" stroke-width=".5" d="M53.75 118.241c0 1.544-1.282 2.805-2.875 2.805S48 119.785 48 118.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#n)" stroke="#000" stroke-width=".5" d="M130.75 102.241c0 1.544-1.282 2.805-2.875 2.805S125 103.785 125 102.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#o)" stroke="#000" stroke-width=".5" d="M72.75 36.24c0 1.545-1.282 2.806-2.875 2.806S67 37.785 67 36.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#p)" stroke="#000" stroke-width=".5" d="M87.75 26.24c0 1.545-1.282 2.806-2.875 2.806S82 27.785 82 26.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#q)" stroke="#000" stroke-width=".5" d="M110.75 32.24c0 1.545-1.282 2.806-2.875 2.806S105 33.785 105 32.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#r)" stroke="#000" stroke-width=".5" d="M99.75 28.24c0 1.545-1.282 2.806-2.875 2.806S94 29.785 94 28.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#s)" stroke="#000" stroke-width=".5" d="M125.75 40.24c0 1.545-1.282 2.806-2.875 2.806S120 41.785 120 40.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#t)" stroke="#000" stroke-width=".5" d="M140.75 60.24c0 1.545-1.282 2.806-2.875 2.806S135 61.785 135 60.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#u)" stroke="#000" stroke-width=".5" d="M143.75 71.24c0 1.545-1.282 2.806-2.875 2.806S138 72.785 138 71.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#v)" stroke="#000" stroke-width=".5" d="M87.75 137.241c0 1.544-1.282 2.805-2.875 2.805S82 138.785 82 137.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#w)" stroke="#000" stroke-width=".5" d="M87.75 145.241c0 1.544-1.282 2.805-2.875 2.805S82 146.785 82 145.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#x)" stroke="#000" stroke-width=".5" d="M74.75 145.241c0 1.544-1.282 2.805-2.875 2.805S69 146.785 69 145.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#y)" stroke="#000" stroke-width=".5" d="M101.75 144.241c0 1.544-1.282 2.805-2.875 2.805S96 145.785 96 144.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#z)" stroke="#000" stroke-width=".5" d="M125.75 132.241c0 1.544-1.282 2.805-2.875 2.805S120 133.785 120 132.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#A)" stroke="#000" stroke-width=".5" d="M63.75 142.241c0 1.544-1.282 2.805-2.875 2.805S58 143.785 58 142.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#B)" stroke="#000" stroke-width=".5" d="M30.75 116.241c0 1.544-1.282 2.805-2.875 2.805S25 117.785 25 116.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#C)" stroke="#000" stroke-width=".5" d="M25.75 106.241c0 1.544-1.282 2.805-2.875 2.805S20 107.785 20 106.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#D)" stroke="#000" stroke-width=".5" d="M22.75 98.24c0 1.545-1.282 2.806-2.875 2.806S17 99.785 17 98.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#E)" stroke="#000" stroke-width=".5" d="M20.75 89.24c0 1.545-1.282 2.806-2.875 2.806S15 90.785 15 89.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#F)" stroke="#000" stroke-width=".5" d="M35.75 123.241c0 1.544-1.282 2.805-2.875 2.805S30 124.785 30 123.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#G)" stroke="#000" stroke-width=".5" d="M113.75 139.241c0 1.544-1.282 2.805-2.875 2.805S108 140.785 108 139.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#H)" stroke="#000" stroke-width=".5" d="M147.75 105.241c0 1.544-1.282 2.805-2.875 2.805S142 106.785 142 105.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#I)" stroke="#000" stroke-width=".5" d="M53.75 136.241c0 1.544-1.282 2.805-2.875 2.805S48 137.785 48 136.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#J)" stroke="#000" stroke-width=".5" d="M152.75 80.24c0 1.545-1.282 2.806-2.875 2.806S147 81.785 147 80.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#K)" stroke="#000" stroke-width=".5" d="M150.75 70.24c0 1.545-1.282 2.806-2.875 2.806S145 71.785 145 70.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#L)" stroke="#000" stroke-width=".5" d="M144.75 54.24c0 1.545-1.282 2.806-2.875 2.806S139 55.785 139 54.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#M)" stroke="#000" stroke-width=".5" d="M136.75 45.24c0 1.545-1.282 2.806-2.875 2.806S131 46.785 131 45.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#N)" stroke="#000" stroke-width=".5" d="M113.75 25.24c0 1.545-1.282 2.806-2.875 2.806S108 26.785 108 25.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#O)" stroke="#000" stroke-width=".5" d="M100.75 20.24c0 1.545-1.282 2.806-2.875 2.806S95 21.785 95 20.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#P)" stroke="#000" stroke-width=".5" d="M135.75 124.241c0 1.544-1.282 2.805-2.875 2.805S130 125.785 130 124.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#Q)" stroke="#000" stroke-width=".5" d="M142.75 114.241c0 1.544-1.282 2.805-2.875 2.805S137 115.785 137 114.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#R)" stroke="#000" stroke-width=".5" d="M152.75 92.24c0 1.545-1.282 2.806-2.875 2.806S147 93.785 147 92.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#S)" stroke="#000" stroke-width=".5" d="M42.75 129.241c0 1.544-1.282 2.805-2.875 2.805S37 130.785 37 129.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#T)" stroke="#000" stroke-width=".5" d="M44.75 34.24c0 1.545-1.282 2.806-2.875 2.806S39 35.785 39 34.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#U)" stroke="#000" stroke-width=".5" d="M34.75 43.24c0 1.545-1.282 2.806-2.875 2.806S29 44.785 29 43.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#V)" stroke="#000" stroke-width=".5" d="M58.75 25.24c0 1.545-1.282 2.806-2.875 2.806S53 26.785 53 25.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#W)" stroke="#000" stroke-width=".5" d="M125.75 32.24c0 1.545-1.282 2.806-2.875 2.806S120 33.785 120 32.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#X)" stroke="#000" stroke-width=".5" d="M86.75 19.24c0 1.545-1.282 2.806-2.875 2.806S81 20.785 81 19.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#Y)" stroke="#000" stroke-width=".5" d="M71.75 20.24c0 1.545-1.282 2.806-2.875 2.806S66 21.785 66 20.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#Z)" stroke="#000" stroke-width=".5" d="M86.75 11.24c0 1.545-1.282 2.806-2.875 2.806S81 12.785 81 11.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aa)" stroke="#000" stroke-width=".5" d="M86.75 3.24c0 1.545-1.282 2.806-2.875 2.806S81 4.785 81 3.241C81 1.696 82.282.435 83.875.435s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#ab)" stroke="#000" stroke-width=".5" d="M88.75 154.241c0 1.544-1.282 2.805-2.875 2.805S83 155.785 83 154.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#ac)" stroke="#000" stroke-width=".5" d="M87.75 162.241c0 1.544-1.282 2.805-2.875 2.805S82 163.785 82 162.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#ad)" stroke="#000" stroke-width=".5" d="M63.75 151.241c0 1.544-1.282 2.805-2.875 2.805S58 152.785 58 151.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#ae)" stroke="#000" stroke-width=".5" d="M121.75 144.241c0 1.544-1.282 2.805-2.875 2.805S116 145.785 116 144.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#af)" stroke="#000" stroke-width=".5" d="M104.75 151.241c0 1.544-1.282 2.805-2.875 2.805S99 152.785 99 151.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#ag)" stroke="#000" stroke-width=".5" d="M16.75 112.241c0 1.544-1.282 2.805-2.875 2.805S11 113.785 11 112.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#ah)" stroke="#000" stroke-width=".5" d="M10.75 95.24c0 1.545-1.282 2.806-2.875 2.806S5 96.785 5 95.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#ai)" stroke="#000" stroke-width=".5" d="M14.75 61.24c0 1.545-1.282 2.806-2.875 2.806S9 62.785 9 61.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aj)" stroke="#000" stroke-width=".5" d="M157.75 106.241c0 1.544-1.282 2.805-2.875 2.805S152 107.785 152 106.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#ak)" stroke="#000" stroke-width=".5" d="M9.75 78.24c0 1.545-1.282 2.806-2.875 2.806S4 79.785 4 78.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#al)" stroke="#000" stroke-width=".5" d="M20.75 47.24c0 1.545-1.282 2.806-2.875 2.806S15 48.785 15 47.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#am)" stroke="#000" stroke-width=".5" d="M131.75 26.24c0 1.545-1.282 2.806-2.875 2.806S126 27.785 126 26.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#an)" stroke="#000" stroke-width=".5" d="M37.75 27.24c0 1.545-1.282 2.806-2.875 2.806S32 28.785 32 27.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#ao)" stroke="#000" stroke-width=".5" d="M160.75 79.24c0 1.545-1.282 2.806-2.875 2.806S155 80.785 155 79.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#ap)" stroke="#000" stroke-width=".5" d="M150.75 49.24c0 1.545-1.282 2.806-2.875 2.806S145 50.785 145 49.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aq)" stroke="#000" stroke-width=".5" d="M46.75 143.241c0 1.544-1.282 2.805-2.875 2.805S41 144.785 41 143.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#ar)" stroke="#000" stroke-width=".5" d="M27.75 130.241c0 1.544-1.282 2.805-2.875 2.805S22 131.785 22 130.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#as)" stroke="#000" stroke-width=".5" d="M144.75 126.241c0 1.544-1.282 2.805-2.875 2.805S139 127.785 139 126.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#at)" stroke="#000" stroke-width=".5" d="M20.75 79.24c0 1.545-1.282 2.806-2.875 2.806S15 80.785 15 79.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#au)" stroke="#000" stroke-width=".5" d="M23.75 64.24c0 1.545-1.282 2.806-2.875 2.806S18 65.785 18 64.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#av)" stroke="#000" stroke-width=".5" d="M29.75 51.24c0 1.545-1.282 2.806-2.875 2.806S24 52.785 24 51.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aw)" stroke="#000" stroke-width=".5" d="M110.75 132.241c0 1.544-1.282 2.805-2.875 2.805S105 133.785 105 132.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#ax)" stroke="#000" stroke-width=".5" d="M120.75 127.241c0 1.544-1.282 2.805-2.875 2.805S115 128.785 115 127.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#ay)" stroke="#000" stroke-width=".5" d="M135.75 112.241c0 1.544-1.282 2.805-2.875 2.805S130 113.785 130 112.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#az)" stroke="#000" stroke-width=".5" d="M99.75 136.241c0 1.544-1.282 2.805-2.875 2.805S94 137.785 94 136.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aA)" stroke="#000" stroke-width=".5" d="M61.75 131.241c0 1.544-1.282 2.805-2.875 2.805S56 132.785 56 131.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aB)" stroke="#000" stroke-width=".5" d="M50.75 126.241c0 1.544-1.282 2.805-2.875 2.805S45 127.785 45 126.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.262 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aC)" stroke="#000" stroke-width=".5" d="M29.75 81.24c0 1.545-1.282 2.806-2.875 2.806S24 82.785 24 81.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aD)" stroke="#000" stroke-width=".5" d="M45.75 43.24c0 1.545-1.282 2.806-2.875 2.806S40 44.785 40 43.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aE)" stroke="#000" stroke-width=".5" d="M71.75 30.24c0 1.545-1.282 2.806-2.875 2.806S66 31.785 66 30.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aF)" stroke="#000" stroke-width=".5" d="M57.75 36.24c0 1.545-1.282 2.806-2.875 2.806S52 37.785 52 36.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aG)" stroke="#000" stroke-width=".5" d="M144.75 81.24c0 1.545-1.282 2.806-2.875 2.806S139 82.785 139 81.241c0-1.544 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aH)" stroke="#000" stroke-width=".5" d="M139.75 104.241c0 1.544-1.282 2.805-2.875 2.805S134 105.785 134 104.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aI)" stroke="#000" stroke-width=".5" d="M127.75 120.241c0 1.544-1.282 2.805-2.875 2.805S122 121.785 122 120.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aJ)" stroke="#000" stroke-width=".5" d="M73.75 137.241c0 1.544-1.282 2.805-2.875 2.805S68 138.785 68 137.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aK)" stroke="#000" stroke-width=".5" d="M132.75 49.24c0 1.545-1.282 2.806-2.875 2.806S127 50.785 127 49.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aL)" stroke="#000" stroke-width=".5" d="M142.75 94.24c0 1.545-1.282 2.806-2.875 2.806S137 95.785 137 94.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aM)" stroke="#000" stroke-width=".5" d="M43.75 119.241c0 1.544-1.282 2.805-2.875 2.805S38 120.785 38 119.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aN)" stroke="#000" stroke-width=".5" d="M37.75 111.241c0 1.544-1.282 2.805-2.875 2.805S32 112.785 32 111.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aO)" stroke="#000" stroke-width=".5" d="M30.75 92.24c0 1.545-1.282 2.806-2.875 2.806S25 93.785 25 92.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aP)" stroke="#000" stroke-width=".5" d="M40.75 49.24c0 1.545-1.282 2.806-2.875 2.806S35 50.785 35 49.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aQ)" stroke="#000" stroke-width=".5" d="M33.75 103.241c0 1.544-1.282 2.805-2.875 2.805S28 104.785 28 103.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aR)" stroke="#000" stroke-width=".5" d="M34.75 57.24c0 1.545-1.282 2.806-2.875 2.806S29 58.785 29 57.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aS)" stroke="#000" stroke-width=".5" d="M30.75 69.24c0 1.545-1.282 2.806-2.875 2.806S25 70.785 25 69.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aT)" stroke="#000" stroke-width=".5" d="M86.75 128.241c0 1.544-1.282 2.805-2.875 2.805S81 129.785 81 128.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aU)" stroke="#000" stroke-width=".5" d="M37.75 74.24c0 1.545-1.282 2.806-2.875 2.806S32 75.785 32 74.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aV)" stroke="#000" stroke-width=".5" d="M101.75 124.241c0 1.544-1.282 2.805-2.875 2.805S96 125.785 96 124.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aW)" stroke="#000" stroke-width=".5" d="M37.75 90.24c0 1.545-1.282 2.806-2.875 2.806S32 91.785 32 90.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aX)" stroke="#000" stroke-width=".5" d="M127.75 55.24c0 1.545-1.282 2.806-2.875 2.806S122 56.785 122 55.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aY)" stroke="#000" stroke-width=".5" d="M118.75 117.241c0 1.544-1.282 2.805-2.875 2.805S113 118.785 113 117.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#aZ)" stroke="#000" stroke-width=".5" d="M112.75 100.241c0 1.544-1.282 2.805-2.875 2.805S107 101.785 107 100.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#ba)" stroke="#000" stroke-width=".5" d="M87.75 43.24c0 1.545-1.282 2.806-2.875 2.806S82 44.785 82 43.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#bb)" stroke="#000" stroke-width=".5" d="M87.75 120.241c0 1.544-1.282 2.805-2.875 2.805S82 121.785 82 120.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#bc)" stroke="#000" stroke-width=".5" d="M63.75 114.241c0 1.544-1.282 2.805-2.875 2.805S58 115.785 58 114.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#bd)" stroke="#000" stroke-width=".5" d="M110.75 111.241c0 1.544-1.282 2.805-2.875 2.805S105 112.785 105 111.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#be)" stroke="#000" stroke-width=".5" d="M127.75 83.24c0 1.545-1.282 2.806-2.875 2.806S122 84.785 122 83.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#bf)" stroke="#000" stroke-width=".5" d="M43.75 59.24c0 1.545-1.282 2.806-2.875 2.806S38 60.785 38 59.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+    <path fill="url(#bg)" stroke="#000" stroke-width=".5" d="M55.75 44.24c0 1.545-1.282 2.806-2.875 2.806S50 45.785 50 44.241c0-1.545 1.282-2.806 2.875-2.806s2.875 1.261 2.875 2.806Z" class="elektron"/>
+  </g>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" class="a" gradientTransform="matrix(0 2.59058 -2.70833 0 82.708 82.3)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F80A0A"/>
+      <stop offset="1" stop-color="#690404"/>
+    </radialGradient>
+    <radialGradient id="b" cx="0" cy="0" r="1" class="b" gradientTransform="matrix(0 3.05556 -3.125 0 60.875 49.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="c" cx="0" cy="0" r="1" class="c" gradientTransform="matrix(0 3.05556 -3.125 0 41.875 85.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="d" cx="0" cy="0" r="1" class="d" gradientTransform="matrix(0 3.05556 -3.125 0 107.875 49.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="e" cx="0" cy="0" r="1" class="e" gradientTransform="matrix(0 3.05556 -3.125 0 73.875 51.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="f" cx="0" cy="0" r="1" class="f" gradientTransform="matrix(0 3.05556 -3.125 0 40.875 104.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="g" cx="0" cy="0" r="1" class="g" gradientTransform="matrix(0 3.05556 -3.125 0 100.875 36.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="h" cx="0" cy="0" r="1" class="h" gradientTransform="matrix(0 3.05556 -3.125 0 129.875 64.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="i" cx="0" cy="0" r="1" class="i" gradientTransform="matrix(0 3.05556 -3.125 0 134.875 82.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="j" cx="0" cy="0" r="1" class="j" gradientTransform="matrix(0 3.05556 -3.125 0 84.875 34.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="k" cx="0" cy="0" r="1" class="k" gradientTransform="matrix(0 3.05556 -3.125 0 118.875 48.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="l" cx="0" cy="0" r="1" class="l" gradientTransform="matrix(0 3.05556 -3.125 0 67.875 126.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="m" cx="0" cy="0" r="1" class="m" gradientTransform="matrix(0 3.05556 -3.125 0 50.875 118.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="n" cx="0" cy="0" r="1" class="n" gradientTransform="scale(3.125 3.05556) rotate(90 3.73 37.19)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="o" cx="0" cy="0" r="1" class="o" gradientTransform="matrix(0 3.05556 -3.125 0 69.875 36.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="p" cx="0" cy="0" r="1" class="p" gradientTransform="matrix(0 3.05556 -3.125 0 84.875 26.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="q" cx="0" cy="0" r="1" class="q" gradientTransform="matrix(0 3.05556 -3.125 0 107.875 32.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="r" cx="0" cy="0" r="1" class="r" gradientTransform="matrix(0 3.05556 -3.125 0 96.875 28.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="s" cx="0" cy="0" r="1" class="s" gradientTransform="matrix(0 3.05556 -3.125 0 122.875 40.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="t" cx="0" cy="0" r="1" class="t" gradientTransform="matrix(0 3.05556 -3.125 0 137.875 60.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="u" cx="0" cy="0" r="1" class="u" gradientTransform="matrix(0 3.05556 -3.125 0 140.875 71.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="v" cx="0" cy="0" r="1" class="v" gradientTransform="matrix(0 3.05556 -3.125 0 84.875 137.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="w" cx="0" cy="0" r="1" class="w" gradientTransform="matrix(0 3.05556 -3.125 0 84.875 145.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="x" cx="0" cy="0" r="1" class="x" gradientTransform="matrix(0 3.05556 -3.125 0 71.875 145.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="y" cx="0" cy="0" r="1" class="y" gradientTransform="matrix(0 3.05556 -3.125 0 98.875 144.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="z" cx="0" cy="0" r="1" class="z" gradientTransform="scale(3.125 3.05556) rotate(90 -1.98 41.3)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="A" cx="0" cy="0" r="1" class="A" gradientTransform="matrix(0 3.05556 -3.125 0 60.875 142.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="B" cx="0" cy="0" r="1" class="B" gradientTransform="matrix(0 3.05556 -3.125 0 27.875 116.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="C" cx="0" cy="0" r="1" class="C" gradientTransform="matrix(0 3.05556 -3.125 0 22.875 106.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="D" cx="0" cy="0" r="1" class="D" gradientTransform="matrix(0 3.05556 -3.125 0 19.875 98.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="E" cx="0" cy="0" r="1" class="E" gradientTransform="matrix(0 3.05556 -3.125 0 17.875 89.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="F" cx="0" cy="0" r="1" class="F" gradientTransform="matrix(0 3.05556 -3.125 0 32.875 123.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="G" cx="0" cy="0" r="1" class="G" gradientTransform="matrix(0 3.05556 -3.125 0 110.875 139.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="H" cx="0" cy="0" r="1" class="H" gradientTransform="matrix(0 3.05556 -3.125 0 144.875 105.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="I" cx="0" cy="0" r="1" class="I" gradientTransform="matrix(0 3.05556 -3.125 0 50.875 136.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="J" cx="0" cy="0" r="1" class="J" gradientTransform="matrix(0 3.05556 -3.125 0 149.875 80.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="K" cx="0" cy="0" r="1" class="K" gradientTransform="matrix(0 3.05556 -3.125 0 147.875 70.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="L" cx="0" cy="0" r="1" class="L" gradientTransform="matrix(0 3.05556 -3.125 0 141.875 54.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="M" cx="0" cy="0" r="1" class="M" gradientTransform="matrix(0 3.05556 -3.125 0 133.875 45.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="N" cx="0" cy="0" r="1" class="N" gradientTransform="matrix(0 3.05556 -3.125 0 110.875 25.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="O" cx="0" cy="0" r="1" class="O" gradientTransform="matrix(0 3.05556 -3.125 0 97.875 20.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="P" cx="0" cy="0" r="1" class="P" gradientTransform="scale(3.125 3.05556) rotate(90 .93 41.59)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="Q" cx="0" cy="0" r="1" class="Q" gradientTransform="matrix(0 3.05556 -3.125 0 139.875 114.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="R" cx="0" cy="0" r="1" class="R" gradientTransform="matrix(0 3.05556 -3.125 0 149.875 92.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="S" cx="0" cy="0" r="1" class="S" gradientTransform="matrix(0 3.05556 -3.125 0 39.875 129.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="T" cx="0" cy="0" r="1" class="T" gradientTransform="matrix(0 3.05556 -3.125 0 41.875 34.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="U" cx="0" cy="0" r="1" class="U" gradientTransform="matrix(0 3.05556 -3.125 0 31.875 43.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="V" cx="0" cy="0" r="1" class="V" gradientTransform="matrix(0 3.05556 -3.125 0 55.875 25.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="W" cx="0" cy="0" r="1" class="W" gradientTransform="matrix(0 3.05556 -3.125 0 122.875 32.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="X" cx="0" cy="0" r="1" class="X" gradientTransform="matrix(0 3.05556 -3.125 0 83.875 19.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="Y" cx="0" cy="0" r="1" class="Y" gradientTransform="matrix(0 3.05556 -3.125 0 68.875 20.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="Z" cx="0" cy="0" r="1" class="Z" gradientTransform="matrix(0 3.05556 -3.125 0 83.875 11.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aa" cx="0" cy="0" r="1" class="aa" gradientTransform="matrix(0 3.05556 -3.125 0 83.875 3.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="ab" cx="0" cy="0" r="1" class="ab" gradientTransform="matrix(0 3.05556 -3.125 0 85.875 154.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="ac" cx="0" cy="0" r="1" class="ac" gradientTransform="matrix(0 3.05556 -3.125 0 84.875 162.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="ad" cx="0" cy="0" r="1" class="ad" gradientTransform="matrix(0 3.05556 -3.125 0 60.875 151.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="ae" cx="0" cy="0" r="1" class="ae" gradientTransform="matrix(0 3.05556 -3.125 0 118.875 144.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="af" cx="0" cy="0" r="1" class="af" gradientTransform="matrix(0 3.05556 -3.125 0 101.875 151.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="ag" cx="0" cy="0" r="1" class="ag" gradientTransform="matrix(0 3.05556 -3.125 0 13.875 112.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="ah" cx="0" cy="0" r="1" class="ah" gradientTransform="matrix(0 3.05556 -3.125 0 7.875 95.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="ai" cx="0" cy="0" r="1" class="ai" gradientTransform="matrix(0 3.05556 -3.125 0 11.875 61.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aj" cx="0" cy="0" r="1" class="aj" gradientTransform="matrix(0 3.05556 -3.125 0 154.875 106.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="ak" cx="0" cy="0" r="1" class="ak" gradientTransform="matrix(0 3.05556 -3.125 0 6.875 78.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="al" cx="0" cy="0" r="1" class="al" gradientTransform="matrix(0 3.05556 -3.125 0 17.875 47.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="am" cx="0" cy="0" r="1" class="am" gradientTransform="matrix(0 3.05556 -3.125 0 128.875 26.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="an" cx="0" cy="0" r="1" class="an" gradientTransform="matrix(0 3.05556 -3.125 0 34.875 27.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="ao" cx="0" cy="0" r="1" class="ao" gradientTransform="matrix(0 3.05556 -3.125 0 157.875 79.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="ap" cx="0" cy="0" r="1" class="ap" gradientTransform="matrix(0 3.05556 -3.125 0 147.875 49.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aq" cx="0" cy="0" r="1" class="aq" gradientTransform="matrix(0 3.05556 -3.125 0 43.875 143.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="ar" cx="0" cy="0" r="1" class="ar" gradientTransform="matrix(0 3.05556 -3.125 0 24.875 130.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="as" cx="0" cy="0" r="1" class="as" gradientTransform="matrix(0 3.05556 -3.125 0 141.875 126.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="at" cx="0" cy="0" r="1" class="at" gradientTransform="matrix(0 3.05556 -3.125 0 17.875 79.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="au" cx="0" cy="0" r="1" class="au" gradientTransform="matrix(0 3.05556 -3.125 0 20.875 64.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="av" cx="0" cy="0" r="1" class="av" gradientTransform="matrix(0 3.05556 -3.125 0 26.875 51.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aw" cx="0" cy="0" r="1" class="aw" gradientTransform="scale(3.125 3.05556) rotate(90 -4.38 38.9)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="ax" cx="0" cy="0" r="1" class="ax" gradientTransform="matrix(0 3.05556 -3.125 0 117.875 127.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="ay" cx="0" cy="0" r="1" class="ay" gradientTransform="matrix(0 3.05556 -3.125 0 132.875 112.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="az" cx="0" cy="0" r="1" class="az" gradientTransform="matrix(0 3.05556 -3.125 0 96.875 136.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aA" cx="0" cy="0" r="1" class="aA" gradientTransform="matrix(0 3.05556 -3.125 0 58.875 131.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aB" cx="0" cy="0" r="1" class="aB" gradientTransform="matrix(0 3.05556 -3.125 0 47.875 126.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aC" cx="0" cy="0" r="1" class="aC" gradientTransform="matrix(0 3.05556 -3.125 0 26.875 81.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aD" cx="0" cy="0" r="1" class="aD" gradientTransform="matrix(0 3.05556 -3.125 0 42.875 43.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aE" cx="0" cy="0" r="1" class="aE" gradientTransform="matrix(0 3.05556 -3.125 0 68.875 30.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aF" cx="0" cy="0" r="1" class="aF" gradientTransform="matrix(0 3.05556 -3.125 0 54.875 36.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aG" cx="0" cy="0" r="1" class="aG" gradientTransform="matrix(0 3.05556 -3.125 0 141.875 81.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aH" cx="0" cy="0" r="1" class="aH" gradientTransform="matrix(0 3.05556 -3.125 0 136.875 104.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aI" cx="0" cy="0" r="1" class="aI" gradientTransform="matrix(0 3.05556 -3.125 0 124.875 120.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aJ" cx="0" cy="0" r="1" class="aJ" gradientTransform="matrix(0 3.05556 -3.125 0 70.875 137.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aK" cx="0" cy="0" r="1" class="aK" gradientTransform="matrix(0 3.05556 -3.125 0 129.875 49.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aL" cx="0" cy="0" r="1" class="aL" gradientTransform="matrix(0 3.05556 -3.125 0 139.875 94.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aM" cx="0" cy="0" r="1" class="aM" gradientTransform="matrix(0 3.05556 -3.125 0 40.875 119.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aN" cx="0" cy="0" r="1" class="aN" gradientTransform="matrix(0 3.05556 -3.125 0 34.875 111.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aO" cx="0" cy="0" r="1" class="aO" gradientTransform="matrix(0 3.05556 -3.125 0 27.875 92.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aP" cx="0" cy="0" r="1" class="aP" gradientTransform="matrix(0 3.05556 -3.125 0 37.875 49.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aQ" cx="0" cy="0" r="1" class="aQ" gradientTransform="matrix(0 3.05556 -3.125 0 30.875 103.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aR" cx="0" cy="0" r="1" class="aR" gradientTransform="matrix(0 3.05556 -3.125 0 31.875 57.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aS" cx="0" cy="0" r="1" class="aS" gradientTransform="matrix(0 3.05556 -3.125 0 27.875 69.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aT" cx="0" cy="0" r="1" class="aT" gradientTransform="matrix(0 3.05556 -3.125 0 83.875 128.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aU" cx="0" cy="0" r="1" class="aU" gradientTransform="matrix(0 3.05556 -3.125 0 34.875 74.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aV" cx="0" cy="0" r="1" class="aV" gradientTransform="matrix(0 3.05556 -3.125 0 98.875 124.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aW" cx="0" cy="0" r="1" class="aW" gradientTransform="matrix(0 3.05556 -3.125 0 34.875 90.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aX" cx="0" cy="0" r="1" class="aX" gradientTransform="matrix(0 3.05556 -3.125 0 124.875 55.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aY" cx="0" cy="0" r="1" class="aY" gradientTransform="matrix(0 3.05556 -3.125 0 115.875 117.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="aZ" cx="0" cy="0" r="1" class="aZ" gradientTransform="matrix(0 3.05556 -3.125 0 109.875 100.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="ba" cx="0" cy="0" r="1" class="ba" gradientTransform="matrix(0 3.05556 -3.125 0 84.875 43.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="bb" cx="0" cy="0" r="1" class="bb" gradientTransform="matrix(0 3.05556 -3.125 0 84.875 120.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="bc" cx="0" cy="0" r="1" class="bc" gradientTransform="matrix(0 3.05556 -3.125 0 60.875 114.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="bd" cx="0" cy="0" r="1" class="bd" gradientTransform="matrix(0 3.05556 -3.125 0 107.875 111.241)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="be" cx="0" cy="0" r="1" class="be" gradientTransform="matrix(0 3.05556 -3.125 0 124.875 83.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="bf" cx="0" cy="0" r="1" class="bf" gradientTransform="matrix(0 3.05556 -3.125 0 40.875 59.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+    <radialGradient id="bg" cx="0" cy="0" r="1" class="bg" gradientTransform="matrix(0 3.05556 -3.125 0 52.875 44.24)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#0051A3"/>
+    </radialGradient>
+  </defs>
+</svg>
