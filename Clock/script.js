@@ -10,8 +10,6 @@ function runClock(){
     let minute = date.getMinutes();
     let seconds = date.getSeconds();
 
-    console.log(`Godzina: ${hour} Minuty: ${minute} Sekundy ${seconds}`);
-
     let hourDegrees = ((hour * 360) / 12) + ((minute * 6) / 12);
     let minuteDegrees = ((minute * 360) / 60) + ((seconds * 6) / 60);
     let secondsDegrees = ((seconds * 360) / 60);
