@@ -34,7 +34,7 @@ const shellsLetters = ["K", "L", "M", "N", "O", "P", "Q"];
 
 function createPage() {
     let retrievedObject = JSON.parse(localStorage.getItem('element'));
-    let [protons, neutrons, electrons] = getProtonsAndNeutrons(retrievedObject.number, retrievedObject.atomicMass);
+    let [protons, neutrons, electrons] = getPartsOfAtom(retrievedObject.number, retrievedObject.atomicMass);
 
     protonsContainer.textContent = `Protony: ${protons}`;
     neutronsContainer.textContent = `Neutrony: ${neutrons}`;
@@ -75,7 +75,7 @@ function createPage() {
     atomStructureContainer.setAttribute("data", `${retrievedObject.svg}`);
 }
 
-function getProtonsAndNeutrons(elementNumber, atomicMass) {
+function getPartsOfAtom(elementNumber, atomicMass) {
     return [elementNumber, Math.round(atomicMass - elementNumber), elementNumber];
 }
 
