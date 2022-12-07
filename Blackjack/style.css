@@ -138,12 +138,19 @@ img {
 }
 
 .card {
-    display: flex;
-    gap: 0.125rem;
+    position: relative;
     height: 120px;
     width: 80px;
     border: 5px solid white;
     margin: 0 auto;
+}
+
+.card-wrapper {
+    position: absolute;
+    display: flex;
+    gap: 0.125rem;
+    width: inherit;
+    height: inherit;
 }
 
 .btn-group {
@@ -178,6 +185,11 @@ img {
 
 .chip {
     cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.chip:hover {
+    scale: 1.1;
 }
 
 .footer {

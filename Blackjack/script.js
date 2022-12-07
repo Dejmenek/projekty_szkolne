@@ -1,46 +1,36 @@
-//Przyciski
 const buttons = document.getElementById("buttons");
-
 const startButton = document.getElementById("start-btn");
 const hitButton = document.getElementById("hit-btn");
 const doubleButton = document.getElementById("double-btn");
 const standButton = document.getElementById("stand-btn");
 
-//Żetony
 const chips = document.querySelectorAll(".chip");
 
-//Wiadomość końcowa
-let messageTextContainer = document.getElementById("message");
-let messageText = document.getElementById("message-text");
+const messageTextContainer = document.getElementById("message");
+const messageText = document.getElementById("message-text");
 
 let gameWinner;
 let winnerText;
 
-//Pieniądze
-let balanceText = document.getElementById("balance-info");
-let money = parseInt(sessionStorage.getItem('playerMoney')) || 1000; //przypisuje do zmiennej money wartość z klucza playerMoney, jeżeli takiego klucza nie ma w pamięci to przypisze do zmiennej 1000
+const balanceText = document.getElementById("balance-info");
+let money = parseInt(sessionStorage.getItem('playerMoney')) || 1000;
+
 let currentWager = 0;
 
-//Zmienne związane z aktualną turą oraz statusem krupiera
 let turn = "player";
 let dealerStatus = "start";
 
-//Tablice przechowywujące karty
-let dealerHand = [];
-let playerHand = [];
+const dealerHand = [];
+const playerHand = [];
 
-//Wyniki graczy
-let playerScoreText = document.getElementById("player-score");
-let dealerScoreText = document.getElementById("dealer-score");
-
+const playerScoreText = document.getElementById("player-score");
+const dealerScoreText = document.getElementById("dealer-score");
 let playerScore = 0;
 let dealerScore = 0;
 
-//Miejsca w ktorych mają byc umieszczone karty graczy
-let dealerBoard = document.getElementById("dealer");
-let playerBoard = document.getElementById("player");
+const dealerBoard = document.getElementById("dealer");
+const playerBoard = document.getElementById("player");
 
-//Tablica wypełniona obiektami kart
 const cardsArray = [
     {
         "src": "two_heart.svg",
@@ -256,7 +246,6 @@ const cardsArray = [
     }
 ];
 
-//Funkcja wyłączająca dany przycisk
 function disableButton(buttonName) {
     buttonName.disabled = true;
 }
@@ -267,18 +256,16 @@ function disableChips() {
     }
 }
 
-//Funkcja losująca kartę
 function getCard() {
-    return cardsArray[Math.floor(Math.random() * 52)]
+    return cardsArray[Math.floor(Math.random() * 52)];
 }
 
-//Funkcja rozpoczynająca grę
 function start() {
     if(currentWager == 0){
-        alert("Musisz coś postawić aby zagrać")
+        alert("Musisz coś postawić, żeby zagrać");
     }
     else if(currentWager > money) {
-        alert("Masz za mało pieniędzy, wybierz niższą stawkę")
+        alert("Masz za mało pieniędzy, wybierz niższą stawkę");
     }
     else {
         disableChips();
@@ -291,12 +278,10 @@ function start() {
     }
 }
 
-//Funkcja wyłączająca możliwość zmiany stawki
 function selectWager(amount) {
     currentWager = amount;
 }
 
-//Funkcja odpowiadająca za rozdanie kart na początku gry
 function dealCards() {
     for(let i = 0; i <= 1; i++){
 
@@ -310,45 +295,51 @@ function dealCards() {
     }
 }
 
-//Funkcja odpowiadająca za rozdawanie kart
-function drawCard(hand, board) {
-    let cardDrawn = getCard();
-    hand.push(cardDrawn);
-
-    let cardIndex = hand.length - 1;
-
+function createCard(index, board, hand) {
     let cardImg = document.createElement("img");
-    cardImg.src = `./assets/cards/${hand[cardIndex].src}`
-    cardImg.setAttribute("id",`${turn}-card-${cardIndex}`)
 
-    if(cardIndex == 0) {
+    cardImg.src = `./assets/cards/${hand[index].src}`
+    cardImg.setAttribute("id",`${turn}-card-${index}`);
+    
+    if(dealerHand.length == 2 && turn == "dealer") {
+        cardImg.src = "./assets/cards/card_back.svg";
+    }
+
+    if(index == 0) {
         board.appendChild(cardImg);
     }
     else {
         board.appendChild(cardImg);
     }
 
-    if(turn == "player") {
-        playerScore += hand[cardIndex].value;
-    }
-    if(turn == "dealer") {
-        dealerScore += hand[cardIndex].value;
-    }
+}
 
-    if(dealerHand.length == 2 && turn == "dealer") {
-        cardImg.src = "./assets/cards/card_back.svg";
-    }
+function drawCard(hand, board) {
+    let cardDrawn = getCard();
+    hand.push(cardDrawn);
+
+    let cardIndex = hand.length - 1;
+
+    createCard(cardIndex, board, hand);
+    updateScore(cardIndex, hand);
+    moveCards(hand, board);
 
     if(playerScore >= 21 && turn == "player") {
         flipHiddenCard();
         checkWin();
     }
     
-    updateScore();
+    updateTextScore();
     updateGame();
 }
 
-//Funkcja odpowiadająca za ruch krupiera
+function moveCards(hand, board) {
+    if(hand.length > 2) {
+        let cardsMarginValue = parseInt(board.style.marginLeft) || 0;
+        board.style.marginLeft = `${cardsMarginValue - 60}px`;
+    }
+}
+
 function dealerPlay() {
     flipHiddenCard();
     disableButton(hitButton);
@@ -371,14 +362,14 @@ function dealerPlay() {
     }
 }
 
-//Funkcja odpowiadająca za odwrócenie ukrytej karty krupiera
 function flipHiddenCard() {
     if(dealerHand.length == 2){
         document.getElementById("dealer-card-1").classList.add("flip");
+
         setTimeout(function(){
             document.getElementById("dealer-card-1").setAttribute("src",`./assets/cards/${dealerHand[1].src}`);
-        updateScore();
-        },700);
+            updateTextScore();
+        }, 700);
     }
 }
 
@@ -403,6 +394,7 @@ function double() {
     else {
         money -= currentWager;
         currentWager = currentWager * 2;
+
         updateBalanceText();
         disableButton(hitButton);
         disableButton(standButton);
@@ -412,16 +404,15 @@ function double() {
     }
 }
 
-//Funkcja odpowiadająca za zmianę ruchu
 function changeHand() {
     if(turn == "player") {
         disableButton(doubleButton);
+        
         turn = "dealer";
         dealerStatus = "hit";
     }
 }
 
-//Funkcja sprawdzająca wygraną
 function checkWin() {
     if(dealerScore == 21) {
         if(playerScore == 21 && dealerScore == 21) {
@@ -435,8 +426,8 @@ function checkWin() {
     }
     else if(dealerScore > 21) {
         if(playerScore <= 21){
-            winnerText = "Wygrał gracz!";
             gameWinner = "player";
+            winnerText = "Wygrał gracz!";
         }
         else {
             gameWinner = "tie";
@@ -449,8 +440,8 @@ function checkWin() {
             winnerText = "Wygrał gracz!";
         }
         else if(playerScore == dealerScore) {
+            gameWinner = "tie";
             winnerText = "Remis";
-            gameWinner = "tie"
         }
         else {
             gameWinner = "dealer";
@@ -476,15 +467,17 @@ function updateMoneyBalance() {
     if(gameWinner == "player") {
         money += currentWager * 2;
     }
+
     if(gameWinner == "tie") {
         money += currentWager;
     }
+
     updateBalanceText();
 }
 
 function updateBalanceText() {
     balanceText.textContent = `${money}$`;
-    sessionStorage.setItem('playerMoney',money); //ustawia wartość dla klucza playerMoney w pamięci
+    sessionStorage.setItem('playerMoney', money);
 }
 
 function showWinner() {
@@ -492,9 +485,9 @@ function showWinner() {
     messageText.innerHTML = winnerText;
 }
 
-//Aktualizowanie wyniku
-function updateScore() {
+function updateTextScore() {
     playerScoreText.innerHTML = `Wynik gracza: ${playerScore}`;
+
     if(dealerHand.length == 2 && dealerStatus == "start"){
         dealerScoreText.innerHTML = `Wynik krupiera: ${dealerScore - dealerHand[1].value}`;
     }
@@ -503,7 +496,16 @@ function updateScore() {
     }
 }
 
-//Funckja resetująca gre
+function updateScore(index, hand) {
+    if(turn == "player") {
+        playerScore += hand[index].value;
+    }
+
+    if(turn == "dealer") {
+        dealerScore += hand[index].value;
+    }
+}
+
 function restartGame() {
     window.location.reload();
 }

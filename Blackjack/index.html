@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logo.png"/>
     <link rel="stylesheet" href="style.css">
     <title>Blackjack</title>
 </head>
@@ -35,14 +36,18 @@
                     <div class="dealer-score">
                         <p class="score-text" id="dealer-score">Wynik krupiera: 0</p>
                     </div>
-                    <div class="card" id="dealer"></div>
+                    <div class="card">
+                        <div class="card-wrapper" id="dealer"></div>
+                    </div>
                     <div class="start" id="start-btn">
                         <button class="btn" onclick="start()">Start</button>
                     </div>
                 </div>
 
                 <div class="player">
-                    <div class="card" id="player"></div>
+                    <div class="card">
+                        <div class="card-wrapper" id="player"></div>
+                    </div>
                     <div class="player-score">
                         <p class="score-text" id="player-score">Wynik gracza: 0</p>
                     </div>
