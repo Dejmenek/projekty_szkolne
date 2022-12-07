@@ -369,11 +369,6 @@ main {
   display: flex;
   justify-content: flex-end;
 }
-@media (min-width: 45em) {
-  .project__link {
-    padding-right: 5rem;
-  }
-}
 .project__link img {
   cursor: pointer;
 }
@@ -455,9 +450,13 @@ footer::after {
   border-radius: 1em;
   padding: 1rem 0.5rem;
   border: 2px solid #f0ecf3;
+  transition: border 0.2s ease-in-out;
 }
 .contact__input::placeholder {
   color: #c0b0cb;
+}
+.contact__input:focus {
+  border-color: #5863F8;
 }
 .contact__msg {
   resize: none;
@@ -466,12 +465,16 @@ footer::after {
   border: 2px solid #f0ecf3;
   color: #f0ecf3;
   border-radius: 1em;
+  transition: border 0.2s ease-in-out;
 }
 @media (min-width: 45em) {
   .contact__msg {
     grid-column: span 2;
     grid-row: 3;
   }
+}
+.contact__msg:focus {
+  border-color: #5863F8;
 }
 @media (min-width: 45em) {
   .contact__email {
