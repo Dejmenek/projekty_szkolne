@@ -94,7 +94,7 @@ function getElectronConfiguration(electronConfiguration) {
 }
 
 function getElectronConfigurationSemantic(electronConfigurationSemantic) {
-    electronConfigurationSemanticContainer.innerHTML = "Uproszcona konfiguracja elektronowa: ";
+    electronConfigurationSemanticContainer.innerHTML = "Uproszczona konfiguracja elektronowa: ";
 
     electronConfigurationSemantic.split(' ').forEach(conf => {
         if (conf.match(/^\[.+\]$/g)) {
