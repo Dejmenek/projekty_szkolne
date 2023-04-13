@@ -6,59 +6,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projekty szkolne</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #6320EE;
+            color: #F8F0FB;
+        }
         a {
             text-decoration: none;
-            color: black;
+            color: #F8F0FB;
         }
+
+        ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+            gap: 2rem;
+            list-style: none;
+        }
+
+        li {
+            text-align: center;
+            padding: 1rem;
+            border-radius: 1em;
+            background-color: #8075FF;
+        }
+
+        .preview {
+            max-width: 100%;
+            height: auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .link-img {
+            width: 24px;
+            height: 24px;
+        }
+
     </style>
 </head>
 <body>
-    <ol>
-        <li>
-            <a href="./Bingo/index.html">
-                Bingo
-            </a>
-        </li>
-        <li>
-            <a href="./Blackjack/index.html">
-                Blackjack
-            </a>
-        </li>
-        <li>
-            <a href="./Clock/index.html">
-                Clock
-            </a>
-        </li>
-        <li>
-            <a href="./Password_checker/index.html">
-                Password checker
-            </a>
-        </li>
-        <li>
-            <a href="./Calendar/index.html">
-                Calendar
-            </a>
-        </li>
-        <li>
-            <a href="./Fortune_wheel/index.html">
-                Fortune Wheel
-            </a>
-        </li>
-        <li>
-            <a href="./Notebook/index.html">
-                Notebook
-            </a>
-        </li>
-        <li>
-            <a href="./Portfolio/public/html/index.html">
-                Portfolio
-            </a>
-        </li>
-        <li>
-            <a href="./ChemiApp/index.html">
-                ChemiApp
-            </a>
-        </li>
-    </ol>
+    <header>
+        <h1>Projekty szkolne</h1>
+    </header>
+    <main>
+        <ul>
+            <li>
+                <div class="content">
+                    <h2>Bingo</h2>
+                    <a href="./Bingo/index.html">
+                        <img class="link-img" src="./Portfolio/public/img/link_alt.svg" alt="">
+                    </a>
+                </div>
+                <img class="preview" src="./Bingo/img/bingo.png" alt="site preview">
+            </li>
+            <li>
+                <div class="content">
+                    <h2>Blackjack</h2>
+                    <a href="./Blackjack/index.html">
+                        <img class="link-img" src="./Portfolio/public/img/link_alt.svg" alt="">
+                    </a>
+                </div>
+                <img class="preview" src="./Blackjack/assets/img/blackjack.png" alt="site preview">
+            </li>
+            <li>
+                <div class="content">
+                    <h2>Zegar</h2>
+                    <a href="./Clock/index.html">
+                        <img class="link-img" src="./Portfolio/public/img/link_alt.svg" alt="">
+                    </a>
+                </div>
+                <img class="preview" src="./Clock/img/clock.png" alt="site preview">
+            </li>
+            <li>
+                <div class="content">
+                    <h2>Password checker</h2>
+                    <a href="./Password_checker/index.html">
+                        <img class="link-img" src="./Portfolio/public/img/link_alt.svg" alt="">
+                    </a>
+                </div>
+                <img class="preview" src="./Password_checker/images/password.png" alt="site preview">
+            </li>
+            <li>
+                <div class="content">
+                    <h2>Kalendarz</h2>
+                    <a href="./Calendar/index.html">
+                        <img class="link-img" src="./Portfolio/public/img/link_alt.svg" alt="">
+                    </a>
+                </div>
+                <img class="preview" src="./Calendar/img/calendar.png" alt="site preview">
+            </li>
+            <li>
+                <div class="content">
+                    <h2>Fortune Wheel</h2>
+                    <a href="./Fortune_wheel/index.html">
+                        <img class="link-img" src="./Portfolio/public/img/link_alt.svg" alt="">
+                    </a>
+                </div>
+                <img class="preview" src="./Fortune_wheel/assets/img/wheel.png" alt="site preview">
+            </li>
+            <li>
+                <div class="content">
+                    <h2>Notatnik</h2>
+                    <a href="./Notebook/index.html">
+                        <img class="link-img" src="./Portfolio/public/img/link_alt.svg" alt="">
+                    </a>
+                </div>
+                <img class="preview" src="./Notebook/img/notebook.png" alt="site preview">
+            </li>
+            <li>
+                <div class="content">
+                    <h2>Portfolio</h2>
+                    <a href="./Portfolio/public/html/index.html">
+                        <img class="link-img" src="./Portfolio/public/img/link_alt.svg" alt="">
+                    </a>
+                </div>
+                <img class="preview" src="./Portfolio/public/img/portfolio.png" alt="site preview">
+            </li>
+            <li>
+                <div class="content">
+                    <h2>ChemiApp</h2>
+                    <a href="./ChemiApp/index.html">
+                        <img class="link-img" src="./Portfolio/public/img/link_alt.svg" alt="">
+                    </a>
+                </div>
+                <img class="preview" src="./ChemiApp/img/chemiApp.png" alt="site preview">
+            </li>
+            <li>
+                <h2>Wisielec</h2>
+                <img class="preview" src="./Hangman/img/site.png" alt="site preview">
+            </li>
+            <li>
+                <h2>Formularz</h2>
+                <img class="preview" src="./Login-form/img/site.png" alt="site preview">
+            </li>
+            <li>
+                <h2>Tlumacz Alfabetu Morse'a</h2>
+                <img class="preview" src="./Morse_code_translator/img/site.png" alt="site preview">
+            </li>
+        </ul>
+    </main>
 </body>
 </html>

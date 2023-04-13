@@ -178,6 +178,9 @@ img {
 }
 
 .chips {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     position: absolute;
     left: 0;
     top: 20%;
